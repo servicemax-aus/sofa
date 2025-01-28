@@ -820,26 +820,6 @@
                     ]
                 }
             ],
-            "visionOS": [
-                {
-                    "ProductVersion": "2.3",
-                    "Build": "22N6896",
-                    "PostingDate": "2025-01-27",
-                    "ExpirationDate": "2025-04-28",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "2.3",
-                    "Build": "22N896",
-                    "PostingDate": "2025-01-27",
-                    "ExpirationDate": "2025-04-28",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                }
-            ],
             "macOS": [
                 {
                     "ProductVersion": "14.7.3",
@@ -1199,6 +1179,26 @@
                         "X589AMLUAP",
                         "X589ICLYAP",
                         "X86LEGACYAP"
+                    ]
+                }
+            ],
+            "visionOS": [
+                {
+                    "ProductVersion": "2.3",
+                    "Build": "22N6896",
+                    "PostingDate": "2025-01-27",
+                    "ExpirationDate": "2025-04-28",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "2.3",
+                    "Build": "22N896",
+                    "PostingDate": "2025-01-27",
+                    "ExpirationDate": "2025-04-28",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
                     ]
                 }
             ]
