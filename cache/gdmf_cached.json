@@ -1,5 +1,5 @@
 {
-    "etag": "1c8dfb5e1839ce562daeb52f8b4941708e875ea0e65875f870a41576052fa50a",
+    "etag": "e7a6a274e178f0f4a0e468f2c2aa4078e13f0c5ce8a6e6ee1fc2361558bdf904",
     "data": {
         "PublicAssetSets": {
             "iOS": [
@@ -829,26 +829,6 @@
                     ]
                 }
             ],
-            "visionOS": [
-                {
-                    "ProductVersion": "2.3.1",
-                    "Build": "22N900",
-                    "PostingDate": "2025-02-13",
-                    "ExpirationDate": "2025-05-20",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "2.3.1",
-                    "Build": "22N6900",
-                    "PostingDate": "2025-02-13",
-                    "ExpirationDate": "2025-05-20",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                }
-            ],
             "macOS": [
                 {
                     "ProductVersion": "15.3.1",
@@ -1208,6 +1188,26 @@
                         "X589AMLUAP",
                         "X589ICLYAP",
                         "X86LEGACYAP"
+                    ]
+                }
+            ],
+            "visionOS": [
+                {
+                    "ProductVersion": "2.3.1",
+                    "Build": "22N900",
+                    "PostingDate": "2025-02-13",
+                    "ExpirationDate": "2025-05-20",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "2.3.1",
+                    "Build": "22N6900",
+                    "PostingDate": "2025-02-13",
+                    "ExpirationDate": "2025-05-20",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
                     ]
                 }
             ]
@@ -3144,7 +3144,7 @@
                 {
                     "ProductVersion": "2.1.1",
                     "Build": "22N591",
-                    "PostingDate": "2024-11-19",
+                    "PostingDate": "2024-11-21",
                     "ExpirationDate": "2025-03-11",
                     "SupportedDevices": [
                         "RealityDevice14,1"
@@ -3153,7 +3153,7 @@
                 {
                     "ProductVersion": "2.1.1",
                     "Build": "22N6591",
-                    "PostingDate": "2024-11-19",
+                    "PostingDate": "2024-11-21",
                     "ExpirationDate": "2025-03-11",
                     "SupportedDevices": [
                         "RealityDevice14,1"
