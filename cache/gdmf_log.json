@@ -1,9 +1,21 @@
 {
     "latest_etag": {
-        "LastCheck": "2025-02-19T17:18:02+00:00Z",
-        "UpdateHash": "fa52d0402d2c9c4994d02fd9099083d278324feef9d5f29e5765350a2c46a4f9"
+        "LastCheck": "2025-02-19T18:27:02+00:00Z",
+        "UpdateHash": "1c8dfb5e1839ce562daeb52f8b4941708e875ea0e65875f870a41576052fa50a"
     },
     "log": [
+        {
+            "timestamp": "2025-02-19T18:27:02+00:00Z",
+            "new_etag": "1c8dfb5e1839ce562daeb52f8b4941708e875ea0e65875f870a41576052fa50a",
+            "status": "success (200)",
+            "previous_etag": "1c8dfb5e1839ce562daeb52f8b4941708e875ea0e65875f870a41576052fa50a"
+        },
+        {
+            "timestamp": "2025-02-19T18:26:54+00:00Z",
+            "new_etag": "1c8dfb5e1839ce562daeb52f8b4941708e875ea0e65875f870a41576052fa50a",
+            "status": "success (200)",
+            "previous_etag": "fa52d0402d2c9c4994d02fd9099083d278324feef9d5f29e5765350a2c46a4f9"
+        },
         {
             "timestamp": "2025-02-19T17:18:02+00:00Z",
             "new_etag": "fa52d0402d2c9c4994d02fd9099083d278324feef9d5f29e5765350a2c46a4f9",
@@ -48,18 +60,6 @@
         },
         {
             "timestamp": "2025-02-19T08:43:50+00:00Z",
-            "new_etag": "fa52d0402d2c9c4994d02fd9099083d278324feef9d5f29e5765350a2c46a4f9",
-            "status": "success (200)",
-            "previous_etag": "fa52d0402d2c9c4994d02fd9099083d278324feef9d5f29e5765350a2c46a4f9"
-        },
-        {
-            "timestamp": "2025-02-19T04:43:19+00:00Z",
-            "new_etag": "fa52d0402d2c9c4994d02fd9099083d278324feef9d5f29e5765350a2c46a4f9",
-            "status": "success (200)",
-            "previous_etag": "fa52d0402d2c9c4994d02fd9099083d278324feef9d5f29e5765350a2c46a4f9"
-        },
-        {
-            "timestamp": "2025-02-19T04:43:12+00:00Z",
             "new_etag": "fa52d0402d2c9c4994d02fd9099083d278324feef9d5f29e5765350a2c46a4f9",
             "status": "success (200)",
             "previous_etag": "fa52d0402d2c9c4994d02fd9099083d278324feef9d5f29e5765350a2c46a4f9"
