@@ -1,5 +1,5 @@
 {
-    "etag": "78c0f058cffccb810434869d5c613c5da468644cbc3fff18371c0f9e78a3c619",
+    "etag": "a98df327816118132163a1a390ff82ebd234b3a15831960ec76bf3b77274de22",
     "data": {
         "PublicAssetSets": {
             "iOS": [
@@ -296,6 +296,21 @@
                     ]
                 },
                 {
+                    "ProductVersion": "18.4.1",
+                    "Build": "22L6261",
+                    "PostingDate": "2025-04-16",
+                    "ExpirationDate": "2025-07-15",
+                    "SupportedDevices": [
+                        "AppleTV11,1",
+                        "AppleTV14,1",
+                        "AppleTV5,3",
+                        "AppleTV6,2",
+                        "AudioAccessory1,1",
+                        "AudioAccessory5,1",
+                        "AudioAccessory6,1"
+                    ]
+                },
+                {
                     "ProductVersion": "15.8.4",
                     "Build": "19H6390",
                     "PostingDate": "2025-04-16",
@@ -313,6 +328,21 @@
                         "iPhone9,3",
                         "iPhone9,4",
                         "iPod9,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "18.4.1",
+                    "Build": "22L261",
+                    "PostingDate": "2025-04-16",
+                    "ExpirationDate": "2025-07-15",
+                    "SupportedDevices": [
+                        "AppleTV11,1",
+                        "AppleTV14,1",
+                        "AppleTV5,3",
+                        "AppleTV6,2",
+                        "AudioAccessory1,1",
+                        "AudioAccessory5,1",
+                        "AudioAccessory6,1"
                     ]
                 },
                 {
@@ -547,21 +577,6 @@
                     ]
                 },
                 {
-                    "ProductVersion": "18.4",
-                    "Build": "22L255",
-                    "PostingDate": "2025-03-31",
-                    "ExpirationDate": "2025-07-15",
-                    "SupportedDevices": [
-                        "AppleTV11,1",
-                        "AppleTV14,1",
-                        "AppleTV5,3",
-                        "AppleTV6,2",
-                        "AudioAccessory1,1",
-                        "AudioAccessory5,1",
-                        "AudioAccessory6,1"
-                    ]
-                },
-                {
                     "ProductVersion": "12.5.7",
                     "Build": "16H81",
                     "PostingDate": "2025-04-16",
@@ -742,21 +757,6 @@
                     ]
                 },
                 {
-                    "ProductVersion": "18.4",
-                    "Build": "22L6255",
-                    "PostingDate": "2025-03-31",
-                    "ExpirationDate": "2025-07-15",
-                    "SupportedDevices": [
-                        "AppleTV11,1",
-                        "AppleTV14,1",
-                        "AppleTV5,3",
-                        "AppleTV6,2",
-                        "AudioAccessory1,1",
-                        "AudioAccessory5,1",
-                        "AudioAccessory6,1"
-                    ]
-                },
-                {
                     "ProductVersion": "16.7.11",
                     "Build": "20H360",
                     "PostingDate": "2025-04-16",
@@ -834,74 +834,31 @@
                     ]
                 }
             ],
-            "macOS": [
+            "visionOS": [
                 {
-                    "ProductVersion": "13.7.5",
-                    "Build": "22H527",
-                    "PostingDate": "2025-03-31",
+                    "ProductVersion": "2.4.1",
+                    "Build": "22O6251",
+                    "PostingDate": "2025-04-16",
                     "ExpirationDate": "2025-07-15",
                     "SupportedDevices": [
-                        "J132AP",
-                        "J137AP",
-                        "J140AAP",
-                        "J140KAP",
-                        "J152FAP",
-                        "J160AP",
-                        "J174AP",
-                        "J180dAP",
-                        "J185AP",
-                        "J185FAP",
-                        "J213AP",
-                        "J214KAP",
-                        "J215AP",
-                        "J223AP",
-                        "J230KAP",
-                        "J274AP",
-                        "J293AP",
-                        "J313AP",
-                        "J314cAP",
-                        "J314sAP",
-                        "J316cAP",
-                        "J316sAP",
-                        "J375cAP",
-                        "J375dAP",
-                        "J413AP",
-                        "J414cAP",
-                        "J414sAP",
-                        "J415AP",
-                        "J416cAP",
-                        "J416sAP",
-                        "J433AP",
-                        "J434AP",
-                        "J456AP",
-                        "J457AP",
-                        "J473AP",
-                        "J474sAP",
-                        "J475cAP",
-                        "J475dAP",
-                        "J493AP",
-                        "J504AP",
-                        "J680AP",
-                        "J780AP",
-                        "Mac-1E7E29AD0135F9BC",
-                        "Mac-4B682C642B45593E",
-                        "Mac-551B86E5744E2388",
-                        "Mac-63001698E7A34814",
-                        "Mac-77F17D7DA9285301",
-                        "Mac-937A206F2EE63C01",
-                        "Mac-AA95B1DDAB278B95",
-                        "Mac-B4831CEBD52A0C4C",
-                        "Mac-BE088AF8C5EB4FA2",
-                        "Mac-CAD6701F7CEA0921",
-                        "Mac-EE2EBD4B90B839A8",
-                        "VMA2MACOSAP",
-                        "VMM-x86_64"
+                        "RealityDevice14,1"
                     ]
                 },
                 {
-                    "ProductVersion": "15.4",
-                    "Build": "24E248",
-                    "PostingDate": "2025-03-31",
+                    "ProductVersion": "2.4.1",
+                    "Build": "22O251",
+                    "PostingDate": "2025-04-16",
+                    "ExpirationDate": "2025-07-15",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                }
+            ],
+            "macOS": [
+                {
+                    "ProductVersion": "15.4.1",
+                    "Build": "24E263",
+                    "PostingDate": "2025-04-16",
                     "ExpirationDate": "2025-07-15",
                     "SupportedDevices": [
                         "J132AP",
@@ -974,9 +931,72 @@
                     ]
                 },
                 {
+                    "ProductVersion": "13.7.5",
+                    "Build": "22H527",
+                    "PostingDate": "2025-04-16",
+                    "ExpirationDate": "2025-07-15",
+                    "SupportedDevices": [
+                        "J132AP",
+                        "J137AP",
+                        "J140AAP",
+                        "J140KAP",
+                        "J152FAP",
+                        "J160AP",
+                        "J174AP",
+                        "J180dAP",
+                        "J185AP",
+                        "J185FAP",
+                        "J213AP",
+                        "J214KAP",
+                        "J215AP",
+                        "J223AP",
+                        "J230KAP",
+                        "J274AP",
+                        "J293AP",
+                        "J313AP",
+                        "J314cAP",
+                        "J314sAP",
+                        "J316cAP",
+                        "J316sAP",
+                        "J375cAP",
+                        "J375dAP",
+                        "J413AP",
+                        "J414cAP",
+                        "J414sAP",
+                        "J415AP",
+                        "J416cAP",
+                        "J416sAP",
+                        "J433AP",
+                        "J434AP",
+                        "J456AP",
+                        "J457AP",
+                        "J473AP",
+                        "J474sAP",
+                        "J475cAP",
+                        "J475dAP",
+                        "J493AP",
+                        "J504AP",
+                        "J680AP",
+                        "J780AP",
+                        "Mac-1E7E29AD0135F9BC",
+                        "Mac-4B682C642B45593E",
+                        "Mac-551B86E5744E2388",
+                        "Mac-63001698E7A34814",
+                        "Mac-77F17D7DA9285301",
+                        "Mac-937A206F2EE63C01",
+                        "Mac-AA95B1DDAB278B95",
+                        "Mac-B4831CEBD52A0C4C",
+                        "Mac-BE088AF8C5EB4FA2",
+                        "Mac-CAD6701F7CEA0921",
+                        "Mac-EE2EBD4B90B839A8",
+                        "VMA2MACOSAP",
+                        "VMM-x86_64"
+                    ]
+                },
+                {
                     "ProductVersion": "12.7.6",
                     "Build": "21H1320",
-                    "PostingDate": "2025-03-31",
+                    "PostingDate": "2025-04-16",
                     "ExpirationDate": "2025-07-15",
                     "SupportedDevices": [
                         "J132AP",
@@ -1042,7 +1062,7 @@
                 {
                     "ProductVersion": "11.7.10",
                     "Build": "20G1427",
-                    "PostingDate": "2025-03-31",
+                    "PostingDate": "2025-04-16",
                     "ExpirationDate": "2025-07-15",
                     "SupportedDevices": [
                         "J132AP",
@@ -1138,7 +1158,7 @@
                 {
                     "ProductVersion": "14.7.5",
                     "Build": "23H527",
-                    "PostingDate": "2025-03-31",
+                    "PostingDate": "2025-04-16",
                     "ExpirationDate": "2025-07-15",
                     "SupportedDevices": [
                         "J132AP",
@@ -1197,26 +1217,6 @@
                         "Mac-AA95B1DDAB278B95",
                         "VMA2MACOSAP",
                         "VMM-x86_64"
-                    ]
-                }
-            ],
-            "visionOS": [
-                {
-                    "ProductVersion": "2.4",
-                    "Build": "22O6238",
-                    "PostingDate": "2025-03-31",
-                    "ExpirationDate": "2025-07-15",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "2.4",
-                    "Build": "22O238",
-                    "PostingDate": "2025-03-31",
-                    "ExpirationDate": "2025-07-15",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
                     ]
                 }
             ]
@@ -1410,6 +1410,21 @@
                         "iPhone9,3",
                         "iPhone9,4",
                         "iPod9,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "18.4.1",
+                    "Build": "22L6261",
+                    "PostingDate": "2025-04-16",
+                    "ExpirationDate": "2025-07-15",
+                    "SupportedDevices": [
+                        "AppleTV11,1",
+                        "AppleTV14,1",
+                        "AppleTV5,3",
+                        "AppleTV6,2",
+                        "AudioAccessory1,1",
+                        "AudioAccessory5,1",
+                        "AudioAccessory6,1"
                     ]
                 },
                 {
@@ -2948,6 +2963,21 @@
                     ]
                 },
                 {
+                    "ProductVersion": "18.4.1",
+                    "Build": "22L261",
+                    "PostingDate": "2025-04-16",
+                    "ExpirationDate": "2025-07-15",
+                    "SupportedDevices": [
+                        "AppleTV11,1",
+                        "AppleTV14,1",
+                        "AppleTV5,3",
+                        "AppleTV6,2",
+                        "AudioAccessory1,1",
+                        "AudioAccessory5,1",
+                        "AudioAccessory6,1"
+                    ]
+                },
+                {
                     "ProductVersion": "18.3",
                     "Build": "22D6063",
                     "PostingDate": "2025-01-27",
@@ -3492,99 +3522,82 @@
                     ]
                 }
             ],
-            "visionOS": [
-                {
-                    "ProductVersion": "2.3.2",
-                    "Build": "22N906",
-                    "PostingDate": "2025-03-11",
-                    "ExpirationDate": "2025-06-29",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "2.4",
-                    "Build": "22O6238",
-                    "PostingDate": "2025-03-31",
-                    "ExpirationDate": "2025-07-15",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "2.3.1",
-                    "Build": "22N900",
-                    "PostingDate": "2025-02-10",
-                    "ExpirationDate": "2025-06-09",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "2.4",
-                    "Build": "22O238",
-                    "PostingDate": "2025-03-31",
-                    "ExpirationDate": "2025-07-15",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "2.3",
-                    "Build": "22N896",
-                    "PostingDate": "2025-01-27",
-                    "ExpirationDate": "2025-05-11",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "2.3.2",
-                    "Build": "22N6906",
-                    "PostingDate": "2025-03-11",
-                    "ExpirationDate": "2025-06-29",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "2.3.1",
-                    "Build": "22N6900",
-                    "PostingDate": "2025-02-10",
-                    "ExpirationDate": "2025-06-09",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "2.3",
-                    "Build": "22N6896",
-                    "PostingDate": "2025-01-27",
-                    "ExpirationDate": "2025-05-11",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "2.2",
-                    "Build": "22N842",
-                    "PostingDate": "2025-01-08",
-                    "ExpirationDate": "2025-04-27",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                },
-                {
-                    "ProductVersion": "2.2",
-                    "Build": "22N6842",
-                    "PostingDate": "2025-01-08",
-                    "ExpirationDate": "2025-04-27",
-                    "SupportedDevices": [
-                        "RealityDevice14,1"
-                    ]
-                }
-            ],
             "macOS": [
+                {
+                    "ProductVersion": "15.4.1",
+                    "Build": "24E263",
+                    "PostingDate": "2025-04-16",
+                    "ExpirationDate": "2025-07-15",
+                    "SupportedDevices": [
+                        "J132AP",
+                        "J137AP",
+                        "J152FAP",
+                        "J160AP",
+                        "J174AP",
+                        "J180dAP",
+                        "J185AP",
+                        "J185FAP",
+                        "J213AP",
+                        "J214KAP",
+                        "J215AP",
+                        "J223AP",
+                        "J230KAP",
+                        "J274AP",
+                        "J293AP",
+                        "J313AP",
+                        "J314cAP",
+                        "J314sAP",
+                        "J316cAP",
+                        "J316sAP",
+                        "J375cAP",
+                        "J375dAP",
+                        "J413AP",
+                        "J414cAP",
+                        "J414sAP",
+                        "J415AP",
+                        "J416cAP",
+                        "J416sAP",
+                        "J433AP",
+                        "J434AP",
+                        "J456AP",
+                        "J457AP",
+                        "J473AP",
+                        "J474sAP",
+                        "J475cAP",
+                        "J475dAP",
+                        "J493AP",
+                        "J504AP",
+                        "J514cAP",
+                        "J514mAP",
+                        "J514sAP",
+                        "J516cAP",
+                        "J516mAP",
+                        "J516sAP",
+                        "J575cAP",
+                        "J575dAP",
+                        "J604AP",
+                        "J613AP",
+                        "J614cAP",
+                        "J614sAP",
+                        "J615AP",
+                        "J616cAP",
+                        "J616sAP",
+                        "J623AP",
+                        "J624AP",
+                        "J680AP",
+                        "J713AP",
+                        "J715AP",
+                        "J773gAP",
+                        "J773sAP",
+                        "J780AP",
+                        "Mac-1E7E29AD0135F9BC",
+                        "Mac-63001698E7A34814",
+                        "Mac-937A206F2EE63C01",
+                        "Mac-AA95B1DDAB278B95",
+                        "VMA2MACOSAP",
+                        "VMM-x86_64"
+                    ]
+                },
                 {
                     "ProductVersion": "13.7.5",
                     "Build": "22H527",
@@ -4624,6 +4637,116 @@
                         "J575dAP",
                         "J713AP",
                         "J715AP"
+                    ]
+                }
+            ],
+            "visionOS": [
+                {
+                    "ProductVersion": "2.3.2",
+                    "Build": "22N906",
+                    "PostingDate": "2025-03-11",
+                    "ExpirationDate": "2025-06-29",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "2.4",
+                    "Build": "22O6238",
+                    "PostingDate": "2025-03-31",
+                    "ExpirationDate": "2025-07-15",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "2.3.1",
+                    "Build": "22N900",
+                    "PostingDate": "2025-02-10",
+                    "ExpirationDate": "2025-06-09",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "2.4",
+                    "Build": "22O238",
+                    "PostingDate": "2025-03-31",
+                    "ExpirationDate": "2025-07-15",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "2.3",
+                    "Build": "22N896",
+                    "PostingDate": "2025-01-27",
+                    "ExpirationDate": "2025-05-11",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "2.3.2",
+                    "Build": "22N6906",
+                    "PostingDate": "2025-03-11",
+                    "ExpirationDate": "2025-06-29",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "2.3.1",
+                    "Build": "22N6900",
+                    "PostingDate": "2025-02-10",
+                    "ExpirationDate": "2025-06-09",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "2.3",
+                    "Build": "22N6896",
+                    "PostingDate": "2025-01-27",
+                    "ExpirationDate": "2025-05-11",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "2.4.1",
+                    "Build": "22O6251",
+                    "PostingDate": "2025-04-16",
+                    "ExpirationDate": "2025-07-15",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "2.2",
+                    "Build": "22N842",
+                    "PostingDate": "2025-01-08",
+                    "ExpirationDate": "2025-04-27",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "2.2",
+                    "Build": "22N6842",
+                    "PostingDate": "2025-01-08",
+                    "ExpirationDate": "2025-04-27",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
+                    ]
+                },
+                {
+                    "ProductVersion": "2.4.1",
+                    "Build": "22O251",
+                    "PostingDate": "2025-04-16",
+                    "ExpirationDate": "2025-07-15",
+                    "SupportedDevices": [
+                        "RealityDevice14,1"
                     ]
                 }
             ]
