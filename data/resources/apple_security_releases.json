@@ -2,30 +2,18 @@
   "metadata": {
     "cached": 119,
     "errors": [],
-    "fetch_timestamp": "2026-08-06T08:51:35.088224154Z",
-    "fetched": 584,
-    "total_releases": 703
+    "fetch_timestamp": "2026-08-07T00:13:18.594532453Z",
+    "fetched": 587,
+    "total_releases": 706
   },
   "releases": [
     {
-      "cve_context": {
-        "CVE-2025-30422": {
-          "matched_pattern": "severity: buffer overflow",
-          "severity": "high",
-          "tags": [
-            "security"
-          ]
-        }
-      },
-      "cves": [
-        "CVE-2025-30422",
-        "CVE-2025-24132"
-      ],
+      "cves": [],
       "has_cves": true,
       "id": "f700cbfb36d8",
       "name": "AirPlay audio SDK 2.7.1 and AirPlay video SDK 3.6.0.126",
       "os_type": "other",
-      "release_date": "2025-04-29",
+      "release_date": "2025-03-31",
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/122403",
       "version": "2.7.1"
@@ -29636,6 +29624,24 @@
     },
     {
       "cve_context": {
+        "CVE-2026-65400": {
+          "exploited": false
+        }
+      },
+      "cves": [
+        "CVE-2026-65400"
+      ],
+      "has_cves": true,
+      "id": "5159db15f79f",
+      "name": "macOS Sequoia 15.7.9",
+      "os_type": "macos",
+      "release_date": "2026-08-06",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/148171",
+      "version": "15.7.9"
+    },
+    {
+      "cve_context": {
         "CVE-2020-9995": {
           "exploited": false
         }
@@ -32746,6 +32752,24 @@
     },
     {
       "cve_context": {
+        "CVE-2026-65400": {
+          "exploited": false
+        }
+      },
+      "cves": [
+        "CVE-2026-65400"
+      ],
+      "has_cves": true,
+      "id": "29f9c158eda5",
+      "name": "macOS Sonoma 14.8.9",
+      "os_type": "macos",
+      "release_date": "2026-08-06",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/148172",
+      "version": "14.8.9"
+    },
+    {
+      "cve_context": {
         "CVE-2025-43288": {
           "entry_added_date": "2025-11-03"
         },
@@ -34178,6 +34202,24 @@
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/128067",
       "version": "26.6"
+    },
+    {
+      "cve_context": {
+        "CVE-2026-65400": {
+          "exploited": false
+        }
+      },
+      "cves": [
+        "CVE-2026-65400"
+      ],
+      "has_cves": true,
+      "id": "f813f26e88cb",
+      "name": "macOS Tahoe 26.6.1",
+      "os_type": "macos",
+      "release_date": "2026-08-06",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/148170",
+      "version": "26.6.1"
     },
     {
       "cve_context": {
