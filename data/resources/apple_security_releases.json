@@ -2,18 +2,30 @@
   "metadata": {
     "cached": 119,
     "errors": [],
-    "fetch_timestamp": "2026-08-07T00:13:18.594532453Z",
+    "fetch_timestamp": "2026-08-07T07:39:07.295454465Z",
     "fetched": 587,
     "total_releases": 706
   },
   "releases": [
     {
-      "cves": [],
+      "cve_context": {
+        "CVE-2025-30422": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "security"
+          ]
+        }
+      },
+      "cves": [
+        "CVE-2025-30422",
+        "CVE-2025-24132"
+      ],
       "has_cves": true,
       "id": "f700cbfb36d8",
       "name": "AirPlay audio SDK 2.7.1 and AirPlay video SDK 3.6.0.126",
       "os_type": "other",
-      "release_date": "2025-03-31",
+      "release_date": "2025-04-29",
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/122403",
       "version": "2.7.1"
