@@ -2,9 +2,9 @@
   "metadata": {
     "cached": 120,
     "errors": [],
-    "fetch_timestamp": "2026-08-18T07:01:26.237269765Z",
-    "fetched": 590,
-    "total_releases": 710
+    "fetch_timestamp": "2026-08-18T18:54:52.348001049Z",
+    "fetched": 591,
+    "total_releases": 711
   },
   "releases": [
     {
@@ -3717,6 +3717,192 @@
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/128073",
       "version": "26.6"
+    },
+    {
+      "cve_context": {
+        "CVE-2026-43794": {
+          "exploited": false,
+          "tags": [
+            "use-after-free",
+            "webkit"
+          ]
+        },
+        "CVE-2026-43795": {
+          "exploited": false,
+          "tags": [
+            "webkit"
+          ]
+        },
+        "CVE-2026-64715": {
+          "exploited": false,
+          "tags": [
+            "safari",
+            "webkit"
+          ]
+        },
+        "CVE-2026-64778": {
+          "exploited": false,
+          "tags": [
+            "memory-corruption",
+            "safari",
+            "webkit"
+          ]
+        },
+        "CVE-2026-64779": {
+          "exploited": false,
+          "tags": [
+            "security",
+            "webkit"
+          ]
+        },
+        "CVE-2026-64780": {
+          "exploited": false,
+          "tags": [
+            "memory-corruption",
+            "safari",
+            "security",
+            "webkit"
+          ]
+        },
+        "CVE-2026-64781": {
+          "exploited": false,
+          "tags": [
+            "safari",
+            "webkit"
+          ]
+        },
+        "CVE-2026-64782": {
+          "exploited": false,
+          "tags": [
+            "safari",
+            "webkit"
+          ]
+        },
+        "CVE-2026-64784": {
+          "exploited": false,
+          "tags": [
+            "safari",
+            "security",
+            "webkit"
+          ]
+        },
+        "CVE-2026-64787": {
+          "exploited": false,
+          "tags": [
+            "webkit"
+          ]
+        },
+        "CVE-2026-65331": {
+          "exploited": false,
+          "tags": [
+            "security",
+            "use-after-free",
+            "webkit"
+          ]
+        },
+        "CVE-2026-65332": {
+          "exploited": false,
+          "tags": [
+            "security",
+            "webkit"
+          ]
+        },
+        "CVE-2026-65333": {
+          "exploited": false,
+          "tags": [
+            "security",
+            "webkit"
+          ]
+        },
+        "CVE-2026-65334": {
+          "exploited": false,
+          "tags": [
+            "memory-corruption",
+            "security",
+            "webkit"
+          ]
+        },
+        "CVE-2026-65335": {
+          "exploited": false,
+          "tags": [
+            "security",
+            "webkit"
+          ]
+        },
+        "CVE-2026-65336": {
+          "exploited": false,
+          "tags": [
+            "webkit"
+          ]
+        },
+        "CVE-2026-65337": {
+          "exploited": false,
+          "tags": [
+            "security",
+            "webkit"
+          ]
+        },
+        "CVE-2026-65338": {
+          "exploited": false,
+          "tags": [
+            "memory-corruption",
+            "security",
+            "webkit"
+          ]
+        },
+        "CVE-2026-65340": {
+          "exploited": false,
+          "tags": [
+            "audio",
+            "webkit"
+          ]
+        },
+        "CVE-2026-65341": {
+          "exploited": false,
+          "tags": [
+            "memory-corruption",
+            "safari",
+            "webkit"
+          ]
+        },
+        "CVE-2026-65351": {
+          "exploited": false,
+          "tags": [
+            "webkit"
+          ]
+        }
+      },
+      "cves": [
+        "CVE-2026-65351",
+        "CVE-2026-65341",
+        "CVE-2026-65340",
+        "CVE-2026-65338",
+        "CVE-2026-65337",
+        "CVE-2026-65336",
+        "CVE-2026-65335",
+        "CVE-2026-65334",
+        "CVE-2026-65333",
+        "CVE-2026-65332",
+        "CVE-2026-65331",
+        "CVE-2026-64787",
+        "CVE-2026-64784",
+        "CVE-2026-64782",
+        "CVE-2026-64781",
+        "CVE-2026-64780",
+        "CVE-2026-64779",
+        "CVE-2026-64778",
+        "CVE-2026-64715",
+        "CVE-2026-43795",
+        "CVE-2026-43794"
+      ],
+      "has_cves": true,
+      "id": "6e336cf482a1",
+      "name": "Safari 26.6.1",
+      "os_type": "safari",
+      "release_date": "2026-08-18",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/148286",
+      "version": "26.6.1"
     },
     {
       "cve_context": {
@@ -29899,7 +30085,10 @@
     {
       "cve_context": {
         "CVE-2026-65400": {
-          "exploited": false
+          "exploited": true,
+          "kev": true,
+          "matched_pattern": "CISA KEV catalog",
+          "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400"
         }
       },
       "cves": [
@@ -33027,7 +33216,10 @@
     {
       "cve_context": {
         "CVE-2026-65400": {
-          "exploited": false
+          "exploited": true,
+          "kev": true,
+          "matched_pattern": "CISA KEV catalog",
+          "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400"
         }
       },
       "cves": [
@@ -34480,7 +34672,10 @@
     {
       "cve_context": {
         "CVE-2026-65400": {
-          "exploited": false
+          "exploited": true,
+          "kev": true,
+          "matched_pattern": "CISA KEV catalog",
+          "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400"
         }
       },
       "cves": [
@@ -38783,10 +38978,8 @@
           "matched_pattern": "severity: use after free",
           "severity": "high",
           "tags": [
-            "arbitrary-code",
-            "buffer-overflow",
-            "kernel",
-            "network"
+            "audio",
+            "security"
           ]
         },
         "CVE-2020-27946": {
@@ -38798,59 +38991,15 @@
             "memory-corruption"
           ]
         },
-        "CVE-2020-29608": {
-          "entry_added_date": "2021-03-16",
-          "tags": [
-            "fonts",
-            "security"
-          ]
-        },
-        "CVE-2020-29610": {
-          "entry_added_date": "2021-03-16",
-          "tags": [
-            "arbitrary-code",
-            "audio"
-          ]
-        },
-        "CVE-2020-29614": {
-          "entry_added_date": "2021-03-16",
-          "tags": [
-            "arbitrary-code"
-          ]
-        },
-        "CVE-2020-29615": {
-          "entry_added_date": "2021-03-16",
-          "tags": [
-            "graphics",
-            "security"
-          ]
-        },
-        "CVE-2020-29623": {
-          "entry_added_date": "2021-03-16",
-          "tags": [
-            "arbitrary-code"
-          ]
-        },
         "CVE-2020-9972": {
-          "entry_added_date": "2021-03-16",
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
           "tags": [
             "webkit"
           ]
-        },
-        "CVE-2021-31077": {
-          "entry_added_date": "2021-03-16",
-          "matched_pattern": "severity: buffer overflow",
-          "severity": "high",
-          "tags": [
-            "audio",
-            "security"
-          ]
         }
       },
       "cves": [
-        "CVE-2021-31077",
         "CVE-2020-29624",
         "CVE-2020-29623",
         "CVE-2020-29619",
@@ -38872,7 +39021,7 @@
       "id": "771dc01e62f3",
       "name": "tvOS 14.3",
       "os_type": "tvos",
-      "release_date": "2023-11-02",
+      "release_date": "2020-12-14",
       "source_url": "https://support.apple.com/en-us/120989",
       "url": "https://support.apple.com/kb/HT212005",
       "version": "14.3"
