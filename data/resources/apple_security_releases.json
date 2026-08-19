@@ -2,7 +2,7 @@
   "metadata": {
     "cached": 120,
     "errors": [],
-    "fetch_timestamp": "2026-08-18T18:54:52.348001049Z",
+    "fetch_timestamp": "2026-08-19T18:53:34.160374510Z",
     "fetched": 591,
     "total_releases": 711
   },
@@ -38978,8 +38978,10 @@
           "matched_pattern": "severity: use after free",
           "severity": "high",
           "tags": [
-            "audio",
-            "security"
+            "arbitrary-code",
+            "buffer-overflow",
+            "kernel",
+            "network"
           ]
         },
         "CVE-2020-27946": {
@@ -38991,15 +38993,59 @@
             "memory-corruption"
           ]
         },
+        "CVE-2020-29608": {
+          "entry_added_date": "2021-03-16",
+          "tags": [
+            "fonts",
+            "security"
+          ]
+        },
+        "CVE-2020-29610": {
+          "entry_added_date": "2021-03-16",
+          "tags": [
+            "arbitrary-code",
+            "audio"
+          ]
+        },
+        "CVE-2020-29614": {
+          "entry_added_date": "2021-03-16",
+          "tags": [
+            "arbitrary-code"
+          ]
+        },
+        "CVE-2020-29615": {
+          "entry_added_date": "2021-03-16",
+          "tags": [
+            "graphics",
+            "security"
+          ]
+        },
+        "CVE-2020-29623": {
+          "entry_added_date": "2021-03-16",
+          "tags": [
+            "arbitrary-code"
+          ]
+        },
         "CVE-2020-9972": {
+          "entry_added_date": "2021-03-16",
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
           "tags": [
             "webkit"
           ]
+        },
+        "CVE-2021-31077": {
+          "entry_added_date": "2021-03-16",
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "audio",
+            "security"
+          ]
         }
       },
       "cves": [
+        "CVE-2021-31077",
         "CVE-2020-29624",
         "CVE-2020-29623",
         "CVE-2020-29619",
@@ -39021,7 +39067,7 @@
       "id": "771dc01e62f3",
       "name": "tvOS 14.3",
       "os_type": "tvos",
-      "release_date": "2020-12-14",
+      "release_date": "2023-11-02",
       "source_url": "https://support.apple.com/en-us/120989",
       "url": "https://support.apple.com/kb/HT212005",
       "version": "14.3"
