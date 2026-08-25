@@ -2,7 +2,7 @@
   "metadata": {
     "cached": 120,
     "errors": [],
-    "fetch_timestamp": "2026-08-25T07:06:32.774930054Z",
+    "fetch_timestamp": "2026-08-25T18:55:40.958573539Z",
     "fetched": 591,
     "total_releases": 711
   },
@@ -3256,7 +3256,6 @@
         "CVE-2026-28913": {
           "exploited": false,
           "tags": [
-            "use-after-free",
             "webkit"
           ]
         },
@@ -3320,6 +3319,14 @@
         "CVE-2026-28971": {
           "exploited": false,
           "tags": [
+            "bypass",
+            "security",
+            "webkit"
+          ]
+        },
+        "CVE-2026-28984": {
+          "exploited": false,
+          "tags": [
             "webkit"
           ]
         },
@@ -3335,11 +3342,19 @@
             "security",
             "webkit"
           ]
+        },
+        "CVE-2026-43670": {
+          "exploited": false,
+          "tags": [
+            "security"
+          ]
         }
       },
       "cves": [
+        "CVE-2026-43670",
         "CVE-2026-43660",
         "CVE-2026-43658",
+        "CVE-2026-28984",
         "CVE-2026-28971",
         "CVE-2026-28962",
         "CVE-2026-28958",
@@ -17585,6 +17600,12 @@
             "kernel"
           ]
         },
+        "CVE-2026-28920": {
+          "entry_added_date": "2026-08-25",
+          "tags": [
+            "kernel"
+          ]
+        },
         "CVE-2026-28959": {
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
@@ -17617,9 +17638,23 @@
             "network",
             "out-of-bounds"
           ]
+        },
+        "CVE-2026-43670": {
+          "entry_added_date": "2026-08-25",
+          "tags": [
+            "arbitrary-code",
+            "kernel",
+            "network",
+            "security"
+          ]
+        },
+        "CVE-2026-65367": {
+          "entry_added_date": "2026-08-25"
         }
       },
       "cves": [
+        "CVE-2026-65367",
+        "CVE-2026-43670",
         "CVE-2026-43668",
         "CVE-2026-43666",
         "CVE-2026-43660",
@@ -18332,6 +18367,9 @@
             "kernel"
           ]
         },
+        "CVE-2026-28920": {
+          "entry_added_date": "2026-08-25"
+        },
         "CVE-2026-28956": {
           "matched_pattern": "severity: memory corruption",
           "severity": "high",
@@ -18355,14 +18393,22 @@
         },
         "CVE-2026-28992": {
           "matched_pattern": "severity: memory corruption",
-          "severity": "high",
-          "tags": [
-            "kernel"
-          ]
+          "severity": "high"
         },
         "CVE-2026-28994": {
           "matched_pattern": "severity: use after free",
           "severity": "high"
+        },
+        "CVE-2026-39877": {
+          "entry_added_date": "2026-08-25",
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high"
+        },
+        "CVE-2026-43657": {
+          "entry_added_date": "2026-08-25",
+          "tags": [
+            "network"
+          ]
         },
         "CVE-2026-43661": {
           "matched_pattern": "severity: buffer overflow",
@@ -18371,25 +18417,46 @@
             "graphics"
           ]
         },
+        "CVE-2026-43667": {
+          "entry_added_date": "2026-08-25",
+          "tags": [
+            "filesystem",
+            "security"
+          ]
+        },
         "CVE-2026-43668": {
           "matched_pattern": "severity: use after free",
           "severity": "high",
           "tags": [
             "network"
           ]
+        },
+        "CVE-2026-43670": {
+          "entry_added_date": "2026-08-25",
+          "tags": [
+            "security"
+          ]
+        },
+        "CVE-2026-65367": {
+          "entry_added_date": "2026-08-25"
         }
       },
       "cves": [
+        "CVE-2026-65367",
+        "CVE-2026-43670",
         "CVE-2026-43668",
+        "CVE-2026-43667",
         "CVE-2026-43666",
         "CVE-2026-43661",
         "CVE-2026-43660",
         "CVE-2026-43659",
         "CVE-2026-43658",
+        "CVE-2026-43657",
         "CVE-2026-43656",
         "CVE-2026-43655",
         "CVE-2026-43654",
         "CVE-2026-43653",
+        "CVE-2026-39877",
         "CVE-2026-39869",
         "CVE-2026-28996",
         "CVE-2026-28995",
@@ -18402,6 +18469,7 @@
         "CVE-2026-28987",
         "CVE-2026-28986",
         "CVE-2026-28985",
+        "CVE-2026-28984",
         "CVE-2026-28983",
         "CVE-2026-28977",
         "CVE-2026-28974",
@@ -29768,18 +29836,17 @@
             "kernel"
           ]
         },
+        "CVE-2026-28920": {
+          "entry_added_date": "2026-08-25",
+          "tags": [
+            "kernel"
+          ]
+        },
         "CVE-2026-28922": {
           "matched_pattern": "severity: crash",
           "severity": "low",
           "tags": [
             "privacy"
-          ]
-        },
-        "CVE-2026-28925": {
-          "matched_pattern": "severity: buffer overflow",
-          "severity": "high",
-          "tags": [
-            "sandbox"
           ]
         },
         "CVE-2026-28956": {
@@ -29821,9 +29888,21 @@
             "network",
             "out-of-bounds"
           ]
+        },
+        "CVE-2026-64705": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-64732": {
+          "entry_added_date": "2026-08-25",
+          "tags": [
+            "filesystem"
+          ]
         }
       },
       "cves": [
+        "CVE-2026-64732",
+        "CVE-2026-64705",
         "CVE-2026-43668",
         "CVE-2026-43666",
         "CVE-2026-43659",
@@ -32986,11 +33065,14 @@
             "kernel"
           ]
         },
-        "CVE-2026-28925": {
-          "matched_pattern": "severity: buffer overflow",
-          "severity": "high",
+        "CVE-2026-28912": {
+          "entry_added_date": "2026-08-25"
+        },
+        "CVE-2026-28920": {
+          "entry_added_date": "2026-08-25",
           "tags": [
-            "sandbox"
+            "kernel",
+            "mail"
           ]
         },
         "CVE-2026-28956": {
@@ -33032,9 +33114,14 @@
             "network",
             "out-of-bounds"
           ]
+        },
+        "CVE-2026-64705": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
         }
       },
       "cves": [
+        "CVE-2026-64705",
         "CVE-2026-43668",
         "CVE-2026-43666",
         "CVE-2026-43659",
@@ -33070,6 +33157,7 @@
         "CVE-2026-28920",
         "CVE-2026-28919",
         "CVE-2026-28915",
+        "CVE-2026-28912",
         "CVE-2026-28908",
         "CVE-2026-28906",
         "CVE-2026-28897",
@@ -34262,6 +34350,9 @@
     },
     {
       "cve_context": {
+        "CVE-2025-14819": {
+          "entry_added_date": "2026-08-25"
+        },
         "CVE-2026-28846": {
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
@@ -34273,12 +34364,21 @@
           "matched_pattern": "severity: buffer overflow",
           "severity": "high"
         },
+        "CVE-2026-28849": {
+          "entry_added_date": "2026-08-25"
+        },
         "CVE-2026-28897": {
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
           "tags": [
             "integer-overflow",
             "kernel"
+          ]
+        },
+        "CVE-2026-28900": {
+          "entry_added_date": "2026-08-25",
+          "tags": [
+            "mail"
           ]
         },
         "CVE-2026-28908": {
@@ -34288,6 +34388,9 @@
             "bypass",
             "kernel"
           ]
+        },
+        "CVE-2026-28920": {
+          "entry_added_date": "2026-08-25"
         },
         "CVE-2026-28925": {
           "matched_pattern": "severity: buffer overflow",
@@ -34316,7 +34419,7 @@
           "severity": "high",
           "tags": [
             "kernel",
-            "out-of-bounds"
+            "memory-corruption"
           ]
         },
         "CVE-2026-28992": {
@@ -34333,11 +34436,26 @@
             "bypass"
           ]
         },
+        "CVE-2026-39877": {
+          "entry_added_date": "2026-08-25",
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
         "CVE-2026-43661": {
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
           "tags": [
             "graphics"
+          ]
+        },
+        "CVE-2026-43667": {
+          "entry_added_date": "2026-08-25",
+          "tags": [
+            "filesystem",
+            "security"
           ]
         },
         "CVE-2026-43668": {
@@ -34347,10 +34465,18 @@
             "network",
             "out-of-bounds"
           ]
+        },
+        "CVE-2026-43670": {
+          "entry_added_date": "2026-08-25",
+          "tags": [
+            "security"
+          ]
         }
       },
       "cves": [
+        "CVE-2026-43670",
         "CVE-2026-43668",
+        "CVE-2026-43667",
         "CVE-2026-43666",
         "CVE-2026-43661",
         "CVE-2026-43660",
@@ -34361,6 +34487,7 @@
         "CVE-2026-43654",
         "CVE-2026-43653",
         "CVE-2026-43652",
+        "CVE-2026-39877",
         "CVE-2026-39871",
         "CVE-2026-39870",
         "CVE-2026-39869",
@@ -34375,6 +34502,7 @@
         "CVE-2026-28987",
         "CVE-2026-28986",
         "CVE-2026-28985",
+        "CVE-2026-28984",
         "CVE-2026-28983",
         "CVE-2026-28978",
         "CVE-2026-28977",
@@ -34422,13 +34550,17 @@
         "CVE-2026-28903",
         "CVE-2026-28902",
         "CVE-2026-28901",
+        "CVE-2026-28900",
         "CVE-2026-28897",
         "CVE-2026-28883",
+        "CVE-2026-28849",
         "CVE-2026-28848",
         "CVE-2026-28847",
         "CVE-2026-28846",
         "CVE-2026-28819",
-        "CVE-2026-1837"
+        "CVE-2026-1837",
+        "CVE-2025-14819",
+        "CVE-2025-14017"
       ],
       "has_cves": true,
       "id": "70d46ab5977f",
@@ -43129,7 +43261,7 @@
           "severity": "high",
           "tags": [
             "kernel",
-            "out-of-bounds"
+            "memory-corruption"
           ]
         },
         "CVE-2026-28992": {
@@ -43142,6 +43274,14 @@
         "CVE-2026-28994": {
           "matched_pattern": "severity: use after free",
           "severity": "high"
+        },
+        "CVE-2026-39877": {
+          "entry_added_date": "2026-08-25",
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
         },
         "CVE-2026-43661": {
           "matched_pattern": "severity: buffer overflow",
@@ -43168,6 +43308,7 @@
         "CVE-2026-43655",
         "CVE-2026-43654",
         "CVE-2026-43653",
+        "CVE-2026-39877",
         "CVE-2026-39869",
         "CVE-2026-28996",
         "CVE-2026-28995",
@@ -43178,6 +43319,7 @@
         "CVE-2026-28987",
         "CVE-2026-28986",
         "CVE-2026-28985",
+        "CVE-2026-28984",
         "CVE-2026-28983",
         "CVE-2026-28977",
         "CVE-2026-28974",
@@ -44862,6 +45004,9 @@
             "kernel"
           ]
         },
+        "CVE-2026-28920": {
+          "entry_added_date": "2026-08-25"
+        },
         "CVE-2026-28956": {
           "matched_pattern": "severity: memory corruption",
           "severity": "high",
@@ -44880,15 +45025,30 @@
           "matched_pattern": "severity: use after free",
           "severity": "high",
           "tags": [
-            "kernel"
+            "kernel",
+            "memory-corruption"
           ]
         },
         "CVE-2026-28992": {
           "matched_pattern": "severity: memory corruption",
           "severity": "high",
           "tags": [
-            "kernel",
-            "use-after-free"
+            "kernel"
+          ]
+        },
+        "CVE-2026-39877": {
+          "entry_added_date": "2026-08-25",
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-43667": {
+          "entry_added_date": "2026-08-25",
+          "tags": [
+            "filesystem",
+            "security"
           ]
         },
         "CVE-2026-43668": {
@@ -44902,11 +45062,13 @@
       },
       "cves": [
         "CVE-2026-43668",
+        "CVE-2026-43667",
         "CVE-2026-43666",
         "CVE-2026-43660",
         "CVE-2026-43659",
         "CVE-2026-43658",
         "CVE-2026-43654",
+        "CVE-2026-39877",
         "CVE-2026-39869",
         "CVE-2026-28996",
         "CVE-2026-28995",
@@ -44915,6 +45077,7 @@
         "CVE-2026-28991",
         "CVE-2026-28990",
         "CVE-2026-28988",
+        "CVE-2026-28984",
         "CVE-2026-28983",
         "CVE-2026-28977",
         "CVE-2026-28974",
@@ -46928,6 +47091,9 @@
             "kernel"
           ]
         },
+        "CVE-2026-28920": {
+          "entry_added_date": "2026-08-25"
+        },
         "CVE-2026-28956": {
           "matched_pattern": "severity: memory corruption",
           "severity": "high",
@@ -46947,7 +47113,13 @@
           "severity": "high",
           "tags": [
             "kernel",
-            "out-of-bounds"
+            "memory-corruption"
+          ]
+        },
+        "CVE-2026-28984": {
+          "entry_added_date": "2026-08-25",
+          "tags": [
+            "webkit"
           ]
         },
         "CVE-2026-28992": {
@@ -46961,11 +47133,26 @@
           "matched_pattern": "severity: use after free",
           "severity": "high"
         },
+        "CVE-2026-39877": {
+          "entry_added_date": "2026-08-25",
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
         "CVE-2026-43661": {
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
           "tags": [
             "graphics"
+          ]
+        },
+        "CVE-2026-43667": {
+          "entry_added_date": "2026-08-25",
+          "tags": [
+            "filesystem",
+            "security"
           ]
         },
         "CVE-2026-43668": {
@@ -46979,12 +47166,14 @@
       },
       "cves": [
         "CVE-2026-43668",
+        "CVE-2026-43667",
         "CVE-2026-43666",
         "CVE-2026-43661",
         "CVE-2026-43660",
         "CVE-2026-43658",
         "CVE-2026-43655",
         "CVE-2026-43654",
+        "CVE-2026-39877",
         "CVE-2026-39869",
         "CVE-2026-28996",
         "CVE-2026-28995",
@@ -46995,6 +47184,7 @@
         "CVE-2026-28988",
         "CVE-2026-28987",
         "CVE-2026-28986",
+        "CVE-2026-28984",
         "CVE-2026-28983",
         "CVE-2026-28977",
         "CVE-2026-28974",
