@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "cached": 120,
+    "cached": 121,
     "errors": [],
-    "fetch_timestamp": "2026-09-08T11:12:24.901034826Z",
+    "fetch_timestamp": "2026-09-08T21:06:29.445597831Z",
     "fetched": 591,
-    "total_releases": 711
+    "total_releases": 712
   },
   "releases": [
     {
@@ -18803,6 +18803,19 @@
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/148282",
       "version": "26.6.1"
+    },
+    {
+      "cves": [],
+      "has_cves": false,
+      "id": "042e7c9d875a",
+      "name": "iOS 26.6.2 and iPadOS 26.6.2",
+      "note": "This update has no published CVE entries.",
+      "os_type": "ios",
+      "raw_html": "<!DOCTYPE html>\n<html>\n<head><title>iOS 26.6.2 and iPadOS 26.6.2</title></head>\n<body>\n<h1>iOS 26.6.2 and iPadOS 26.6.2</h1>\n<p>Release Date: 2026-09-08</p>\n<p>OS Type: ios</p>\n<p>Version: 26.6.2</p>\n<div class=\"note\">This update has no published CVE entries.</div>\n</body>\n</html>",
+      "release_date": "2026-09-08",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": null,
+      "version": "26.6.2"
     },
     {
       "cve_context": {
