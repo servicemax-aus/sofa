@@ -2,30 +2,18 @@
   "metadata": {
     "cached": 121,
     "errors": [],
-    "fetch_timestamp": "2026-09-11T11:15:17.006925291Z",
+    "fetch_timestamp": "2026-09-11T20:58:53.819074257Z",
     "fetched": 591,
     "total_releases": 712
   },
   "releases": [
     {
-      "cve_context": {
-        "CVE-2025-30422": {
-          "matched_pattern": "severity: buffer overflow",
-          "severity": "high",
-          "tags": [
-            "security"
-          ]
-        }
-      },
-      "cves": [
-        "CVE-2025-30422",
-        "CVE-2025-24132"
-      ],
+      "cves": [],
       "has_cves": true,
       "id": "f700cbfb36d8",
       "name": "AirPlay audio SDK 2.7.1 and AirPlay video SDK 3.6.0.126",
       "os_type": "other",
-      "release_date": "2025-04-29",
+      "release_date": "2025-03-31",
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/122403",
       "version": "2.7.1"
@@ -343,24 +331,12 @@
       "version": "6.1.14"
     },
     {
-      "cve_context": {
-        "CVE-2025-30422": {
-          "matched_pattern": "severity: buffer overflow",
-          "severity": "high",
-          "tags": [
-            "security"
-          ]
-        }
-      },
-      "cves": [
-        "CVE-2025-30422",
-        "CVE-2025-24132"
-      ],
+      "cves": [],
       "has_cves": true,
       "id": "f970637e4bea",
       "name": "CarPlay Communication Plug-in R18.1 Updates",
       "os_type": "other",
-      "release_date": "2025-04-29",
+      "release_date": "2025-04-04",
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/122403",
       "version": "18.1"
@@ -1331,52 +1307,12 @@
       "version": "15.1"
     },
     {
-      "cve_context": {
-        "CVE-2021-30934": {
-          "matched_pattern": "severity: buffer overflow",
-          "severity": "high",
-          "tags": [
-            "arbitrary-code",
-            "use-after-free",
-            "webkit"
-          ]
-        },
-        "CVE-2021-30936": {
-          "matched_pattern": "severity: use after free",
-          "severity": "high"
-        },
-        "CVE-2021-30952": {
-          "exploited": true,
-          "kev": true,
-          "matched_pattern": "CISA KEV catalog",
-          "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2021-30952",
-          "tags": [
-            "arbitrary-code",
-            "security",
-            "webkit"
-          ]
-        },
-        "CVE-2021-30954": {
-          "entry_added_date": "2022-05-25",
-          "tags": [
-            "webkit"
-          ]
-        }
-      },
-      "cves": [
-        "CVE-2021-30984",
-        "CVE-2021-30954",
-        "CVE-2021-30953",
-        "CVE-2021-30952",
-        "CVE-2021-30951",
-        "CVE-2021-30936",
-        "CVE-2021-30934"
-      ],
+      "cves": [],
       "has_cves": true,
       "id": "9bde1a8eb722",
       "name": "Safari 15.2",
       "os_type": "safari",
-      "release_date": "2023-11-03",
+      "release_date": "2021-12-14",
       "source_url": "https://support.apple.com/en-us/120989",
       "url": "https://support.apple.com/en-us/103170",
       "version": "15.2"
@@ -10333,52 +10269,12 @@
       "version": "15.1.1"
     },
     {
-      "cve_context": {
-        "CVE-2021-30934": {
-          "matched_pattern": "severity: buffer overflow",
-          "severity": "high",
-          "tags": [
-            "arbitrary-code",
-            "use-after-free",
-            "webkit"
-          ]
-        },
-        "CVE-2021-30936": {
-          "matched_pattern": "severity: use after free",
-          "severity": "high"
-        },
-        "CVE-2021-30952": {
-          "exploited": true,
-          "kev": true,
-          "matched_pattern": "CISA KEV catalog",
-          "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2021-30952",
-          "tags": [
-            "arbitrary-code",
-            "security",
-            "webkit"
-          ]
-        },
-        "CVE-2021-30954": {
-          "entry_added_date": "2022-05-25",
-          "tags": [
-            "webkit"
-          ]
-        }
-      },
-      "cves": [
-        "CVE-2021-30984",
-        "CVE-2021-30954",
-        "CVE-2021-30953",
-        "CVE-2021-30952",
-        "CVE-2021-30951",
-        "CVE-2021-30936",
-        "CVE-2021-30934"
-      ],
+      "cves": [],
       "has_cves": true,
       "id": "6b504dbee55e",
       "name": "iOS 15.2 and iPadOS 15.2",
       "os_type": "ios",
-      "release_date": "2023-11-03",
+      "release_date": "2021-12-13",
       "source_url": "https://support.apple.com/en-us/120989",
       "url": "https://support.apple.com/en-us/103170",
       "version": "15.2"
