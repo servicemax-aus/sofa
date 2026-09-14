@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "cached": 121,
+    "cached": 120,
     "errors": [],
-    "fetch_timestamp": "2026-09-14T12:39:25.536330719Z",
-    "fetched": 591,
-    "total_releases": 712
+    "fetch_timestamp": "2026-09-14T21:47:25.871817042Z",
+    "fetched": 602,
+    "total_releases": 722
   },
   "releases": [
     {
@@ -3672,7 +3672,6 @@
         "CVE-2026-64718": {
           "exploited": false,
           "tags": [
-            "out-of-bounds",
             "safari"
           ]
         },
@@ -3707,7 +3706,6 @@
         "CVE-2026-64783": {
           "exploited": false,
           "tags": [
-            "safari",
             "webkit"
           ]
         }
@@ -3735,159 +3733,22 @@
     },
     {
       "cve_context": {
-        "CVE-2026-43794": {
-          "exploited": false,
-          "tags": [
-            "use-after-free",
-            "webkit"
-          ]
-        },
-        "CVE-2026-43795": {
-          "exploited": false,
+        "CVE-2026-65390": {
+          "entry_added_date": "2026-09-14",
           "tags": [
             "webkit"
           ]
         },
-        "CVE-2026-64715": {
-          "exploited": false,
+        "CVE-2026-65391": {
+          "entry_added_date": "2026-09-14",
           "tags": [
-            "safari",
-            "webkit"
-          ]
-        },
-        "CVE-2026-64778": {
-          "exploited": false,
-          "tags": [
-            "memory-corruption",
-            "safari",
-            "webkit"
-          ]
-        },
-        "CVE-2026-64779": {
-          "exploited": false,
-          "tags": [
-            "security",
-            "webkit"
-          ]
-        },
-        "CVE-2026-64780": {
-          "exploited": false,
-          "tags": [
-            "memory-corruption",
-            "safari",
-            "security",
-            "webkit"
-          ]
-        },
-        "CVE-2026-64781": {
-          "exploited": false,
-          "tags": [
-            "safari",
-            "webkit"
-          ]
-        },
-        "CVE-2026-64782": {
-          "exploited": false,
-          "tags": [
-            "safari",
-            "webkit"
-          ]
-        },
-        "CVE-2026-64784": {
-          "exploited": false,
-          "tags": [
-            "safari",
-            "security",
-            "webkit"
-          ]
-        },
-        "CVE-2026-64787": {
-          "exploited": false,
-          "tags": [
-            "webkit"
-          ]
-        },
-        "CVE-2026-65331": {
-          "exploited": false,
-          "tags": [
-            "security",
-            "use-after-free",
-            "webkit"
-          ]
-        },
-        "CVE-2026-65332": {
-          "exploited": false,
-          "tags": [
-            "security",
-            "webkit"
-          ]
-        },
-        "CVE-2026-65333": {
-          "exploited": false,
-          "tags": [
-            "security",
-            "webkit"
-          ]
-        },
-        "CVE-2026-65334": {
-          "exploited": false,
-          "tags": [
-            "memory-corruption",
-            "security",
-            "webkit"
-          ]
-        },
-        "CVE-2026-65335": {
-          "exploited": false,
-          "tags": [
-            "security",
-            "webkit"
-          ]
-        },
-        "CVE-2026-65336": {
-          "exploited": false,
-          "tags": [
-            "webkit"
-          ]
-        },
-        "CVE-2026-65337": {
-          "exploited": false,
-          "tags": [
-            "security",
-            "webkit"
-          ]
-        },
-        "CVE-2026-65338": {
-          "exploited": false,
-          "tags": [
-            "memory-corruption",
-            "security",
-            "webkit"
-          ]
-        },
-        "CVE-2026-65340": {
-          "exploited": false,
-          "tags": [
-            "audio",
-            "webkit"
-          ]
-        },
-        "CVE-2026-65341": {
-          "exploited": false,
-          "tags": [
-            "memory-corruption",
-            "safari",
-            "webkit"
-          ]
-        },
-        "CVE-2026-65351": {
-          "exploited": false,
-          "tags": [
-            "webkit"
+            "memory-corruption"
           ]
         }
       },
       "cves": [
+        "CVE-2026-65391",
+        "CVE-2026-65390",
         "CVE-2026-65351",
         "CVE-2026-65341",
         "CVE-2026-65340",
@@ -3918,6 +3779,61 @@
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/148286",
       "version": "26.6.1"
+    },
+    {
+      "cve_context": {
+        "CVE-2026-64718": {
+          "exploited": false,
+          "tags": [
+            "safari"
+          ]
+        },
+        "CVE-2026-64753": {
+          "exploited": false,
+          "tags": [
+            "webkit"
+          ]
+        },
+        "CVE-2026-84518": {
+          "exploited": false
+        },
+        "CVE-2026-84635": {
+          "exploited": false,
+          "tags": [
+            "webkit"
+          ]
+        },
+        "CVE-2026-86897": {
+          "exploited": false,
+          "tags": [
+            "webkit"
+          ]
+        },
+        "CVE-2026-86898": {
+          "exploited": false,
+          "tags": [
+            "safari",
+            "use-after-free",
+            "webkit"
+          ]
+        }
+      },
+      "cves": [
+        "CVE-2026-86898",
+        "CVE-2026-86897",
+        "CVE-2026-84635",
+        "CVE-2026-84518",
+        "CVE-2026-64753",
+        "CVE-2026-64718"
+      ],
+      "has_cves": true,
+      "id": "6f787e13930e",
+      "name": "Safari 27",
+      "os_type": "safari",
+      "release_date": "2026-09-14",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/149039",
+      "version": "27"
     },
     {
       "cve_context": {
@@ -6108,6 +6024,24 @@
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/126801",
       "version": "26.4"
+    },
+    {
+      "cve_context": {
+        "CVE-2026-65393": {
+          "exploited": false
+        }
+      },
+      "cves": [
+        "CVE-2026-65393"
+      ],
+      "has_cves": true,
+      "id": "228c3207eb47",
+      "name": "Xcode 27",
+      "os_type": "xcode",
+      "release_date": "2026-09-14",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/149040",
+      "version": null
     },
     {
       "cves": [],
@@ -16780,6 +16714,9 @@
     },
     {
       "cve_context": {
+        "CVE-2026-28960": {
+          "entry_added_date": "2026-09-14"
+        },
         "CVE-2026-39877": {
           "matched_pattern": "severity: memory corruption",
           "severity": "high",
@@ -16804,8 +16741,7 @@
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
           "tags": [
-            "audio",
-            "out-of-bounds"
+            "audio"
           ]
         },
         "CVE-2026-43778": {
@@ -16835,6 +16771,17 @@
           "matched_pattern": "severity: use after free",
           "severity": "high"
         },
+        "CVE-2026-64714": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-64717": {
+          "entry_added_date": "2026-09-14"
+        },
         "CVE-2026-64722": {
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
@@ -16855,9 +16802,40 @@
           "tags": [
             "use-after-free"
           ]
+        },
+        "CVE-2026-64787": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "safari",
+            "webkit"
+          ]
+        },
+        "CVE-2026-65355": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium",
+          "tags": [
+            "arbitrary-code",
+            "kernel"
+          ]
+        },
+        "CVE-2026-65404": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "security"
+          ]
+        },
+        "CVE-2026-84489": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
         }
       },
       "cves": [
+        "CVE-2026-84489",
+        "CVE-2026-65404",
+        "CVE-2026-65355",
+        "CVE-2026-65351",
         "CVE-2026-65341",
         "CVE-2026-65340",
         "CVE-2026-65338",
@@ -16868,6 +16846,7 @@
         "CVE-2026-65333",
         "CVE-2026-65332",
         "CVE-2026-65331",
+        "CVE-2026-64787",
         "CVE-2026-64784",
         "CVE-2026-64782",
         "CVE-2026-64781",
@@ -16907,8 +16886,10 @@
         "CVE-2026-64722",
         "CVE-2026-64721",
         "CVE-2026-64719",
+        "CVE-2026-64717",
         "CVE-2026-64716",
         "CVE-2026-64715",
+        "CVE-2026-64714",
         "CVE-2026-64709",
         "CVE-2026-64707",
         "CVE-2026-64700",
@@ -16937,6 +16918,7 @@
         "CVE-2026-43769",
         "CVE-2026-43757",
         "CVE-2026-43754",
+        "CVE-2026-43746",
         "CVE-2026-43745",
         "CVE-2026-43744",
         "CVE-2026-43742",
@@ -16975,6 +16957,7 @@
         "CVE-2026-28984",
         "CVE-2026-28979",
         "CVE-2026-28973",
+        "CVE-2026-28960",
         "CVE-2026-28958",
         "CVE-2026-28947",
         "CVE-2026-4424",
@@ -18596,10 +18579,7 @@
       "cve_context": {
         "CVE-2026-28928": {
           "matched_pattern": "severity: use after free",
-          "severity": "high",
-          "tags": [
-            "arbitrary-code"
-          ]
+          "severity": "high"
         },
         "CVE-2026-28931": {
           "matched_pattern": "severity: buffer overflow",
@@ -18608,9 +18588,28 @@
             "kernel"
           ]
         },
+        "CVE-2026-28938": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "webkit"
+          ]
+        },
+        "CVE-2026-43702": {
+          "entry_added_date": "2026-09-14"
+        },
         "CVE-2026-43711": {
           "matched_pattern": "severity: memory corruption",
           "severity": "high"
+        },
+        "CVE-2026-43748": {
+          "entry_added_date": "2026-09-14"
+        },
+        "CVE-2026-43762": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "security",
+            "siri"
+          ]
         },
         "CVE-2026-43776": {
           "matched_pattern": "severity: buffer overflow",
@@ -18621,6 +18620,14 @@
         },
         "CVE-2026-43778": {
           "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-43808": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: use-after-free",
           "severity": "high",
           "tags": [
             "kernel"
@@ -18637,6 +18644,17 @@
           "matched_pattern": "severity: use after free",
           "severity": "high"
         },
+        "CVE-2026-64705": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "graphics"
+          ]
+        },
+        "CVE-2026-64717": {
+          "entry_added_date": "2026-09-14"
+        },
         "CVE-2026-64722": {
           "matched_pattern": "severity: buffer overflow",
           "severity": "high"
@@ -18652,12 +18670,39 @@
             "kernel"
           ]
         },
+        "CVE-2026-64755": {
+          "entry_added_date": "2026-09-14"
+        },
         "CVE-2026-64771": {
           "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-65353": {
+          "entry_added_date": "2026-09-14"
+        },
+        "CVE-2026-65357": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65371": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65407": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: use after free",
           "severity": "high"
         }
       },
       "cves": [
+        "CVE-2026-65407",
+        "CVE-2026-65371",
+        "CVE-2026-65357",
+        "CVE-2026-65353",
         "CVE-2026-64783",
         "CVE-2026-64775",
         "CVE-2026-64774",
@@ -18698,11 +18743,13 @@
         "CVE-2026-64720",
         "CVE-2026-64719",
         "CVE-2026-64718",
+        "CVE-2026-64717",
         "CVE-2026-64716",
         "CVE-2026-64713",
         "CVE-2026-64711",
         "CVE-2026-64709",
         "CVE-2026-64707",
+        "CVE-2026-64705",
         "CVE-2026-64700",
         "CVE-2026-64693",
         "CVE-2026-64692",
@@ -18716,6 +18763,7 @@
         "CVE-2026-43812",
         "CVE-2026-43811",
         "CVE-2026-43810",
+        "CVE-2026-43808",
         "CVE-2026-43805",
         "CVE-2026-43804",
         "CVE-2026-43803",
@@ -18728,7 +18776,9 @@
         "CVE-2026-43778",
         "CVE-2026-43776",
         "CVE-2026-43769",
+        "CVE-2026-43762",
         "CVE-2026-43753",
+        "CVE-2026-43748",
         "CVE-2026-43744",
         "CVE-2026-43739",
         "CVE-2026-43733",
@@ -18737,8 +18787,10 @@
         "CVE-2026-43723",
         "CVE-2026-43714",
         "CVE-2026-43711",
+        "CVE-2026-43702",
         "CVE-2026-43673",
         "CVE-2026-28973",
+        "CVE-2026-28938",
         "CVE-2026-28931",
         "CVE-2026-28928",
         "CVE-2026-4424",
@@ -18756,15 +18808,48 @@
     },
     {
       "cve_context": {
+        "CVE-2026-64736": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "kernel"
+          ]
+        },
         "CVE-2026-65343": {
           "matched_pattern": "severity: use after free",
           "severity": "high",
           "tags": [
             "kernel"
           ]
+        },
+        "CVE-2026-65352": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "webkit"
+          ]
+        },
+        "CVE-2026-65355": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium",
+          "tags": [
+            "graphics"
+          ]
+        },
+        "CVE-2026-65390": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "security"
+          ]
+        },
+        "CVE-2026-65391": {
+          "entry_added_date": "2026-09-14"
         }
       },
       "cves": [
+        "CVE-2026-65391",
+        "CVE-2026-65390",
+        "CVE-2026-65355",
+        "CVE-2026-65352",
         "CVE-2026-65351",
         "CVE-2026-65349",
         "CVE-2026-65347",
@@ -18791,9 +18876,11 @@
         "CVE-2026-64780",
         "CVE-2026-64779",
         "CVE-2026-64778",
+        "CVE-2026-64736",
         "CVE-2026-64715",
         "CVE-2026-43795",
-        "CVE-2026-43794"
+        "CVE-2026-43794",
+        "CVE-2026-28935"
       ],
       "has_cves": true,
       "id": "1363683af908",
@@ -18816,6 +18903,389 @@
       "source_url": "https://support.apple.com/en-us/100100",
       "url": null,
       "version": "26.6.2"
+    },
+    {
+      "cve_context": {
+        "CVE-2026-43661": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "graphics"
+          ]
+        },
+        "CVE-2026-43684": {
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "memory-corruption"
+          ]
+        },
+        "CVE-2026-43686": {
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65377": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "security"
+          ]
+        },
+        "CVE-2026-65402": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high"
+        },
+        "CVE-2026-65407": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high"
+        },
+        "CVE-2026-84497": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84510": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84626": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium"
+        },
+        "CVE-2026-86870": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-86924": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "filesystem"
+          ]
+        }
+      },
+      "cves": [
+        "CVE-2026-86924",
+        "CVE-2026-86904",
+        "CVE-2026-86897",
+        "CVE-2026-86892",
+        "CVE-2026-86890",
+        "CVE-2026-86887",
+        "CVE-2026-86886",
+        "CVE-2026-86882",
+        "CVE-2026-86881",
+        "CVE-2026-86876",
+        "CVE-2026-86870",
+        "CVE-2026-86869",
+        "CVE-2026-84632",
+        "CVE-2026-84630",
+        "CVE-2026-84626",
+        "CVE-2026-84624",
+        "CVE-2026-84623",
+        "CVE-2026-84622",
+        "CVE-2026-84621",
+        "CVE-2026-84620",
+        "CVE-2026-84617",
+        "CVE-2026-84616",
+        "CVE-2026-84615",
+        "CVE-2026-84612",
+        "CVE-2026-84611",
+        "CVE-2026-84607",
+        "CVE-2026-84602",
+        "CVE-2026-84598",
+        "CVE-2026-84583",
+        "CVE-2026-84566",
+        "CVE-2026-84564",
+        "CVE-2026-84561",
+        "CVE-2026-84552",
+        "CVE-2026-84546",
+        "CVE-2026-84534",
+        "CVE-2026-84532",
+        "CVE-2026-84530",
+        "CVE-2026-84526",
+        "CVE-2026-84524",
+        "CVE-2026-84523",
+        "CVE-2026-84521",
+        "CVE-2026-84519",
+        "CVE-2026-84513",
+        "CVE-2026-84510",
+        "CVE-2026-84507",
+        "CVE-2026-84497",
+        "CVE-2026-84492",
+        "CVE-2026-84491",
+        "CVE-2026-84487",
+        "CVE-2026-65414",
+        "CVE-2026-65412",
+        "CVE-2026-65411",
+        "CVE-2026-65410",
+        "CVE-2026-65409",
+        "CVE-2026-65408",
+        "CVE-2026-65407",
+        "CVE-2026-65406",
+        "CVE-2026-65405",
+        "CVE-2026-65403",
+        "CVE-2026-65402",
+        "CVE-2026-65399",
+        "CVE-2026-65395",
+        "CVE-2026-65377",
+        "CVE-2026-65360",
+        "CVE-2026-65359",
+        "CVE-2026-65348",
+        "CVE-2026-65345",
+        "CVE-2026-65344",
+        "CVE-2026-64758",
+        "CVE-2026-64718",
+        "CVE-2026-43743",
+        "CVE-2026-43737",
+        "CVE-2026-43715",
+        "CVE-2026-43702",
+        "CVE-2026-43689",
+        "CVE-2026-43687",
+        "CVE-2026-43686",
+        "CVE-2026-43684",
+        "CVE-2026-43664",
+        "CVE-2026-43661",
+        "CVE-2026-28968",
+        "CVE-2026-28966"
+      ],
+      "has_cves": true,
+      "id": "1704316d6153",
+      "name": "iOS 26.7 and iPadOS 26.7",
+      "os_type": "ios",
+      "release_date": "2026-09-14",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/149041",
+      "version": "26.7"
+    },
+    {
+      "cve_context": {
+        "CVE-2026-28969": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-43686": {
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-43688": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "fonts"
+          ]
+        },
+        "CVE-2026-64752": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "sandbox"
+          ]
+        },
+        "CVE-2026-65377": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "security"
+          ]
+        },
+        "CVE-2026-65407": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high"
+        },
+        "CVE-2026-84489": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84497": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84510": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84521": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high"
+        },
+        "CVE-2026-84571": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84593": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "security"
+          ]
+        },
+        "CVE-2026-84626": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium"
+        },
+        "CVE-2026-86870": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-86895": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium"
+        },
+        "CVE-2026-86924": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "filesystem"
+          ]
+        }
+      },
+      "cves": [
+        "CVE-2026-86924",
+        "CVE-2026-86905",
+        "CVE-2026-86904",
+        "CVE-2026-86903",
+        "CVE-2026-86898",
+        "CVE-2026-86897",
+        "CVE-2026-86895",
+        "CVE-2026-86893",
+        "CVE-2026-86892",
+        "CVE-2026-86890",
+        "CVE-2026-86888",
+        "CVE-2026-86887",
+        "CVE-2026-86886",
+        "CVE-2026-86885",
+        "CVE-2026-86884",
+        "CVE-2026-86883",
+        "CVE-2026-86882",
+        "CVE-2026-86881",
+        "CVE-2026-86879",
+        "CVE-2026-86878",
+        "CVE-2026-86876",
+        "CVE-2026-86870",
+        "CVE-2026-84636",
+        "CVE-2026-84635",
+        "CVE-2026-84632",
+        "CVE-2026-84630",
+        "CVE-2026-84629",
+        "CVE-2026-84628",
+        "CVE-2026-84626",
+        "CVE-2026-84625",
+        "CVE-2026-84624",
+        "CVE-2026-84623",
+        "CVE-2026-84622",
+        "CVE-2026-84621",
+        "CVE-2026-84620",
+        "CVE-2026-84617",
+        "CVE-2026-84616",
+        "CVE-2026-84615",
+        "CVE-2026-84612",
+        "CVE-2026-84611",
+        "CVE-2026-84609",
+        "CVE-2026-84607",
+        "CVE-2026-84606",
+        "CVE-2026-84603",
+        "CVE-2026-84602",
+        "CVE-2026-84600",
+        "CVE-2026-84598",
+        "CVE-2026-84597",
+        "CVE-2026-84596",
+        "CVE-2026-84593",
+        "CVE-2026-84583",
+        "CVE-2026-84575",
+        "CVE-2026-84571",
+        "CVE-2026-84566",
+        "CVE-2026-84564",
+        "CVE-2026-84561",
+        "CVE-2026-84560",
+        "CVE-2026-84552",
+        "CVE-2026-84551",
+        "CVE-2026-84546",
+        "CVE-2026-84534",
+        "CVE-2026-84533",
+        "CVE-2026-84532",
+        "CVE-2026-84531",
+        "CVE-2026-84530",
+        "CVE-2026-84527",
+        "CVE-2026-84526",
+        "CVE-2026-84524",
+        "CVE-2026-84523",
+        "CVE-2026-84521",
+        "CVE-2026-84519",
+        "CVE-2026-84518",
+        "CVE-2026-84513",
+        "CVE-2026-84511",
+        "CVE-2026-84510",
+        "CVE-2026-84507",
+        "CVE-2026-84497",
+        "CVE-2026-84492",
+        "CVE-2026-84491",
+        "CVE-2026-84489",
+        "CVE-2026-84487",
+        "CVE-2026-65415",
+        "CVE-2026-65414",
+        "CVE-2026-65412",
+        "CVE-2026-65411",
+        "CVE-2026-65410",
+        "CVE-2026-65409",
+        "CVE-2026-65408",
+        "CVE-2026-65407",
+        "CVE-2026-65406",
+        "CVE-2026-65405",
+        "CVE-2026-65404",
+        "CVE-2026-65403",
+        "CVE-2026-65402",
+        "CVE-2026-65399",
+        "CVE-2026-65398",
+        "CVE-2026-65395",
+        "CVE-2026-65377",
+        "CVE-2026-65360",
+        "CVE-2026-65359",
+        "CVE-2026-65358",
+        "CVE-2026-65354",
+        "CVE-2026-65348",
+        "CVE-2026-65345",
+        "CVE-2026-65344",
+        "CVE-2026-65329",
+        "CVE-2026-64761",
+        "CVE-2026-64760",
+        "CVE-2026-64756",
+        "CVE-2026-64753",
+        "CVE-2026-64752",
+        "CVE-2026-64718",
+        "CVE-2026-43785",
+        "CVE-2026-43738",
+        "CVE-2026-43737",
+        "CVE-2026-43695",
+        "CVE-2026-43689",
+        "CVE-2026-43688",
+        "CVE-2026-43687",
+        "CVE-2026-43686",
+        "CVE-2026-43674",
+        "CVE-2026-43664",
+        "CVE-2026-28969",
+        "CVE-2026-28968",
+        "CVE-2026-28966",
+        "CVE-2026-20683"
+      ],
+      "has_cves": true,
+      "id": "d80b8ffe1288",
+      "name": "iOS 27 and iPadOS 27",
+      "os_type": "ios",
+      "release_date": "2026-09-14",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/149034",
+      "version": null
     },
     {
       "cve_context": {
@@ -24653,6 +25123,382 @@
       "version": "10.15.7"
     },
     {
+      "cve_context": {
+        "CVE-2026-28934": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "security"
+          ]
+        },
+        "CVE-2026-28969": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-43684": {
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-43686": {
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-43688": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "fonts"
+          ]
+        },
+        "CVE-2026-43719": {
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high"
+        },
+        "CVE-2026-64714": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "graphics"
+          ]
+        },
+        "CVE-2026-64752": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "sandbox"
+          ]
+        },
+        "CVE-2026-65374": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high"
+        },
+        "CVE-2026-65377": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "security"
+          ]
+        },
+        "CVE-2026-65400": {
+          "exploited": true,
+          "kev": true,
+          "matched_pattern": "CISA KEV catalog",
+          "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+          "tags": [
+            "security"
+          ]
+        },
+        "CVE-2026-65407": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high"
+        },
+        "CVE-2026-84489": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84497": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84506": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "bypass"
+          ]
+        },
+        "CVE-2026-84510": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-84512": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84520": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "sandbox"
+          ]
+        },
+        "CVE-2026-84521": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high"
+        },
+        "CVE-2026-84571": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84581": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "filesystem"
+          ]
+        },
+        "CVE-2026-84586": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium"
+        },
+        "CVE-2026-84588": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-84626": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium"
+        },
+        "CVE-2026-86870": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "sandbox"
+          ]
+        },
+        "CVE-2026-86924": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high"
+        }
+      },
+      "cves": [
+        "CVE-2026-86924",
+        "CVE-2026-86917",
+        "CVE-2026-86911",
+        "CVE-2026-86910",
+        "CVE-2026-86909",
+        "CVE-2026-86905",
+        "CVE-2026-86903",
+        "CVE-2026-86902",
+        "CVE-2026-86901",
+        "CVE-2026-86900",
+        "CVE-2026-86898",
+        "CVE-2026-86897",
+        "CVE-2026-86894",
+        "CVE-2026-86891",
+        "CVE-2026-86889",
+        "CVE-2026-86888",
+        "CVE-2026-86884",
+        "CVE-2026-86882",
+        "CVE-2026-86881",
+        "CVE-2026-86876",
+        "CVE-2026-86870",
+        "CVE-2026-86869",
+        "CVE-2026-84635",
+        "CVE-2026-84632",
+        "CVE-2026-84631",
+        "CVE-2026-84630",
+        "CVE-2026-84628",
+        "CVE-2026-84626",
+        "CVE-2026-84625",
+        "CVE-2026-84624",
+        "CVE-2026-84622",
+        "CVE-2026-84621",
+        "CVE-2026-84620",
+        "CVE-2026-84619",
+        "CVE-2026-84618",
+        "CVE-2026-84617",
+        "CVE-2026-84616",
+        "CVE-2026-84612",
+        "CVE-2026-84611",
+        "CVE-2026-84609",
+        "CVE-2026-84607",
+        "CVE-2026-84606",
+        "CVE-2026-84602",
+        "CVE-2026-84601",
+        "CVE-2026-84600",
+        "CVE-2026-84597",
+        "CVE-2026-84596",
+        "CVE-2026-84589",
+        "CVE-2026-84588",
+        "CVE-2026-84587",
+        "CVE-2026-84586",
+        "CVE-2026-84585",
+        "CVE-2026-84584",
+        "CVE-2026-84583",
+        "CVE-2026-84581",
+        "CVE-2026-84580",
+        "CVE-2026-84578",
+        "CVE-2026-84577",
+        "CVE-2026-84576",
+        "CVE-2026-84575",
+        "CVE-2026-84574",
+        "CVE-2026-84573",
+        "CVE-2026-84572",
+        "CVE-2026-84571",
+        "CVE-2026-84570",
+        "CVE-2026-84569",
+        "CVE-2026-84568",
+        "CVE-2026-84567",
+        "CVE-2026-84566",
+        "CVE-2026-84565",
+        "CVE-2026-84564",
+        "CVE-2026-84563",
+        "CVE-2026-84561",
+        "CVE-2026-84560",
+        "CVE-2026-84559",
+        "CVE-2026-84558",
+        "CVE-2026-84556",
+        "CVE-2026-84555",
+        "CVE-2026-84554",
+        "CVE-2026-84553",
+        "CVE-2026-84552",
+        "CVE-2026-84551",
+        "CVE-2026-84550",
+        "CVE-2026-84549",
+        "CVE-2026-84548",
+        "CVE-2026-84546",
+        "CVE-2026-84544",
+        "CVE-2026-84543",
+        "CVE-2026-84541",
+        "CVE-2026-84540",
+        "CVE-2026-84538",
+        "CVE-2026-84537",
+        "CVE-2026-84536",
+        "CVE-2026-84535",
+        "CVE-2026-84534",
+        "CVE-2026-84533",
+        "CVE-2026-84532",
+        "CVE-2026-84531",
+        "CVE-2026-84530",
+        "CVE-2026-84527",
+        "CVE-2026-84526",
+        "CVE-2026-84525",
+        "CVE-2026-84524",
+        "CVE-2026-84523",
+        "CVE-2026-84522",
+        "CVE-2026-84521",
+        "CVE-2026-84520",
+        "CVE-2026-84519",
+        "CVE-2026-84518",
+        "CVE-2026-84517",
+        "CVE-2026-84516",
+        "CVE-2026-84515",
+        "CVE-2026-84514",
+        "CVE-2026-84513",
+        "CVE-2026-84512",
+        "CVE-2026-84511",
+        "CVE-2026-84510",
+        "CVE-2026-84509",
+        "CVE-2026-84507",
+        "CVE-2026-84506",
+        "CVE-2026-84505",
+        "CVE-2026-84497",
+        "CVE-2026-84492",
+        "CVE-2026-84491",
+        "CVE-2026-84489",
+        "CVE-2026-84487",
+        "CVE-2026-65415",
+        "CVE-2026-65414",
+        "CVE-2026-65413",
+        "CVE-2026-65412",
+        "CVE-2026-65410",
+        "CVE-2026-65409",
+        "CVE-2026-65408",
+        "CVE-2026-65407",
+        "CVE-2026-65406",
+        "CVE-2026-65405",
+        "CVE-2026-65404",
+        "CVE-2026-65403",
+        "CVE-2026-65402",
+        "CVE-2026-65401",
+        "CVE-2026-65400",
+        "CVE-2026-65399",
+        "CVE-2026-65398",
+        "CVE-2026-65395",
+        "CVE-2026-65393",
+        "CVE-2026-65383",
+        "CVE-2026-65382",
+        "CVE-2026-65381",
+        "CVE-2026-65380",
+        "CVE-2026-65378",
+        "CVE-2026-65377",
+        "CVE-2026-65376",
+        "CVE-2026-65375",
+        "CVE-2026-65374",
+        "CVE-2026-65369",
+        "CVE-2026-65365",
+        "CVE-2026-65364",
+        "CVE-2026-65362",
+        "CVE-2026-65361",
+        "CVE-2026-65360",
+        "CVE-2026-65359",
+        "CVE-2026-65358",
+        "CVE-2026-65354",
+        "CVE-2026-65348",
+        "CVE-2026-65345",
+        "CVE-2026-65344",
+        "CVE-2026-65342",
+        "CVE-2026-64790",
+        "CVE-2026-64760",
+        "CVE-2026-64756",
+        "CVE-2026-64753",
+        "CVE-2026-64752",
+        "CVE-2026-64718",
+        "CVE-2026-64714",
+        "CVE-2026-64712",
+        "CVE-2026-43791",
+        "CVE-2026-43790",
+        "CVE-2026-43789",
+        "CVE-2026-43788",
+        "CVE-2026-43787",
+        "CVE-2026-43786",
+        "CVE-2026-43785",
+        "CVE-2026-43741",
+        "CVE-2026-43738",
+        "CVE-2026-43737",
+        "CVE-2026-43719",
+        "CVE-2026-43698",
+        "CVE-2026-43697",
+        "CVE-2026-43696",
+        "CVE-2026-43695",
+        "CVE-2026-43692",
+        "CVE-2026-43691",
+        "CVE-2026-43690",
+        "CVE-2026-43689",
+        "CVE-2026-43688",
+        "CVE-2026-43687",
+        "CVE-2026-43686",
+        "CVE-2026-43684",
+        "CVE-2026-43683",
+        "CVE-2026-43677",
+        "CVE-2026-43664",
+        "CVE-2026-34979",
+        "CVE-2026-28969",
+        "CVE-2026-28968",
+        "CVE-2026-28966",
+        "CVE-2026-28937",
+        "CVE-2026-28934",
+        "CVE-2026-28899",
+        "CVE-2026-20683",
+        "CVE-2022-3437"
+      ],
+      "has_cves": true,
+      "id": "e4ee78b6875d",
+      "name": "macOS Golden Gate 27",
+      "os_type": "macos",
+      "release_date": "2026-09-14",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/149035",
+      "version": null
+    },
+    {
       "cves": [],
       "has_cves": true,
       "id": "e1bd69a8f6b1",
@@ -29973,6 +30819,9 @@
     },
     {
       "cve_context": {
+        "CVE-2025-14819": {
+          "entry_added_date": "2026-09-14"
+        },
         "CVE-2026-20672": {
           "matched_pattern": "severity: information disclosure",
           "severity": "medium",
@@ -29982,11 +30831,25 @@
             "type-confusion"
           ]
         },
+        "CVE-2026-28914": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "audio"
+          ]
+        },
         "CVE-2026-28932": {
           "matched_pattern": "severity: memory corruption",
           "severity": "high",
           "tags": [
             "bypass"
+          ]
+        },
+        "CVE-2026-28933": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "sandbox"
           ]
         },
         "CVE-2026-28981": {
@@ -30017,8 +30880,7 @@
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
           "tags": [
-            "bypass",
-            "privacy",
+            "out-of-bounds",
             "security"
           ]
         },
@@ -30034,11 +30896,13 @@
             "memory-corruption"
           ]
         },
+        "CVE-2026-43761": {
+          "entry_added_date": "2026-09-14"
+        },
         "CVE-2026-43776": {
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
           "tags": [
-            "buffer-overflow",
             "kernel"
           ]
         },
@@ -30046,7 +30910,6 @@
           "matched_pattern": "severity: use after free",
           "severity": "high",
           "tags": [
-            "bypass",
             "kernel"
           ]
         },
@@ -30071,6 +30934,11 @@
             "kernel"
           ]
         },
+        "CVE-2026-43815": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
         "CVE-2026-43822": {
           "matched_pattern": "severity: use after free",
           "severity": "high"
@@ -30081,6 +30949,17 @@
           "tags": [
             "kernel"
           ]
+        },
+        "CVE-2026-64714": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-64717": {
+          "entry_added_date": "2026-09-14"
         },
         "CVE-2026-64722": {
           "matched_pattern": "severity: buffer overflow",
@@ -30098,14 +30977,33 @@
         },
         "CVE-2026-64767": {
           "matched_pattern": "severity: buffer overflow",
-          "severity": "high"
+          "severity": "high",
+          "tags": [
+            "buffer-overflow",
+            "kernel",
+            "memory-corruption"
+          ]
         },
         "CVE-2026-64771": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-65404": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "kernel",
+            "security"
+          ]
+        },
+        "CVE-2026-84489": {
+          "entry_added_date": "2026-09-14",
           "matched_pattern": "severity: buffer overflow",
           "severity": "high"
         }
       },
       "cves": [
+        "CVE-2026-84489",
+        "CVE-2026-65404",
         "CVE-2026-64776",
         "CVE-2026-64775",
         "CVE-2026-64774",
@@ -30137,7 +31035,9 @@
         "CVE-2026-64723",
         "CVE-2026-64722",
         "CVE-2026-64721",
+        "CVE-2026-64717",
         "CVE-2026-64716",
+        "CVE-2026-64714",
         "CVE-2026-64711",
         "CVE-2026-64710",
         "CVE-2026-64709",
@@ -30146,6 +31046,7 @@
         "CVE-2026-64704",
         "CVE-2026-64703",
         "CVE-2026-64702",
+        "CVE-2026-64701",
         "CVE-2026-64700",
         "CVE-2026-64699",
         "CVE-2026-64698",
@@ -30157,6 +31058,7 @@
         "CVE-2026-64692",
         "CVE-2026-43822",
         "CVE-2026-43818",
+        "CVE-2026-43815",
         "CVE-2026-43812",
         "CVE-2026-43810",
         "CVE-2026-43809",
@@ -30188,6 +31090,7 @@
         "CVE-2026-43765",
         "CVE-2026-43764",
         "CVE-2026-43763",
+        "CVE-2026-43761",
         "CVE-2026-43758",
         "CVE-2026-43757",
         "CVE-2026-43756",
@@ -30231,6 +31134,7 @@
         "CVE-2026-28961",
         "CVE-2026-28945",
         "CVE-2026-28936",
+        "CVE-2026-28933",
         "CVE-2026-28932",
         "CVE-2026-28926",
         "CVE-2026-28914",
@@ -30243,7 +31147,9 @@
         "CVE-2026-4424",
         "CVE-2026-3784",
         "CVE-2026-3783",
-        "CVE-2025-43325"
+        "CVE-2025-43325",
+        "CVE-2025-14819",
+        "CVE-2025-14017"
       ],
       "has_cves": true,
       "id": "3c6fb649cc0b",
@@ -30274,6 +31180,275 @@
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/148171",
       "version": "15.7.9"
+    },
+    {
+      "cve_context": {
+        "CVE-2026-28934": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "filesystem",
+            "kernel",
+            "security"
+          ]
+        },
+        "CVE-2026-28969": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-43684": {
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "memory-corruption",
+            "use-after-free"
+          ]
+        },
+        "CVE-2026-43686": {
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-43719": {
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "race-condition"
+          ]
+        },
+        "CVE-2026-65374": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "bypass"
+          ]
+        },
+        "CVE-2026-65377": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "bypass",
+            "kernel",
+            "security"
+          ]
+        },
+        "CVE-2026-65402": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high"
+        },
+        "CVE-2026-65407": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-84497": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "info-disclosure"
+          ]
+        },
+        "CVE-2026-84506": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-84510": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84512": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "buffer-overflow"
+          ]
+        },
+        "CVE-2026-84581": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84626": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium"
+        }
+      },
+      "cves": [
+        "CVE-2026-86917",
+        "CVE-2026-86910",
+        "CVE-2026-86891",
+        "CVE-2026-86889",
+        "CVE-2026-86882",
+        "CVE-2026-86881",
+        "CVE-2026-86876",
+        "CVE-2026-84632",
+        "CVE-2026-84630",
+        "CVE-2026-84626",
+        "CVE-2026-84624",
+        "CVE-2026-84622",
+        "CVE-2026-84621",
+        "CVE-2026-84620",
+        "CVE-2026-84619",
+        "CVE-2026-84618",
+        "CVE-2026-84617",
+        "CVE-2026-84616",
+        "CVE-2026-84612",
+        "CVE-2026-84611",
+        "CVE-2026-84609",
+        "CVE-2026-84607",
+        "CVE-2026-84602",
+        "CVE-2026-84587",
+        "CVE-2026-84583",
+        "CVE-2026-84581",
+        "CVE-2026-84580",
+        "CVE-2026-84578",
+        "CVE-2026-84576",
+        "CVE-2026-84575",
+        "CVE-2026-84574",
+        "CVE-2026-84573",
+        "CVE-2026-84572",
+        "CVE-2026-84570",
+        "CVE-2026-84568",
+        "CVE-2026-84567",
+        "CVE-2026-84566",
+        "CVE-2026-84565",
+        "CVE-2026-84564",
+        "CVE-2026-84563",
+        "CVE-2026-84561",
+        "CVE-2026-84559",
+        "CVE-2026-84556",
+        "CVE-2026-84555",
+        "CVE-2026-84554",
+        "CVE-2026-84553",
+        "CVE-2026-84552",
+        "CVE-2026-84550",
+        "CVE-2026-84549",
+        "CVE-2026-84548",
+        "CVE-2026-84546",
+        "CVE-2026-84544",
+        "CVE-2026-84543",
+        "CVE-2026-84541",
+        "CVE-2026-84540",
+        "CVE-2026-84538",
+        "CVE-2026-84537",
+        "CVE-2026-84536",
+        "CVE-2026-84535",
+        "CVE-2026-84534",
+        "CVE-2026-84532",
+        "CVE-2026-84527",
+        "CVE-2026-84526",
+        "CVE-2026-84525",
+        "CVE-2026-84524",
+        "CVE-2026-84523",
+        "CVE-2026-84521",
+        "CVE-2026-84519",
+        "CVE-2026-84517",
+        "CVE-2026-84516",
+        "CVE-2026-84515",
+        "CVE-2026-84514",
+        "CVE-2026-84513",
+        "CVE-2026-84512",
+        "CVE-2026-84511",
+        "CVE-2026-84510",
+        "CVE-2026-84509",
+        "CVE-2026-84507",
+        "CVE-2026-84506",
+        "CVE-2026-84505",
+        "CVE-2026-84497",
+        "CVE-2026-84492",
+        "CVE-2026-84487",
+        "CVE-2026-65414",
+        "CVE-2026-65413",
+        "CVE-2026-65412",
+        "CVE-2026-65409",
+        "CVE-2026-65408",
+        "CVE-2026-65407",
+        "CVE-2026-65406",
+        "CVE-2026-65405",
+        "CVE-2026-65403",
+        "CVE-2026-65402",
+        "CVE-2026-65399",
+        "CVE-2026-65395",
+        "CVE-2026-65382",
+        "CVE-2026-65381",
+        "CVE-2026-65378",
+        "CVE-2026-65377",
+        "CVE-2026-65376",
+        "CVE-2026-65375",
+        "CVE-2026-65374",
+        "CVE-2026-65371",
+        "CVE-2026-65369",
+        "CVE-2026-65365",
+        "CVE-2026-65364",
+        "CVE-2026-65362",
+        "CVE-2026-65361",
+        "CVE-2026-65360",
+        "CVE-2026-65359",
+        "CVE-2026-65358",
+        "CVE-2026-65349",
+        "CVE-2026-65348",
+        "CVE-2026-65346",
+        "CVE-2026-65345",
+        "CVE-2026-65344",
+        "CVE-2026-65342",
+        "CVE-2026-65339",
+        "CVE-2026-65330",
+        "CVE-2026-64790",
+        "CVE-2026-64758",
+        "CVE-2026-64756",
+        "CVE-2026-64736",
+        "CVE-2026-64712",
+        "CVE-2026-43791",
+        "CVE-2026-43790",
+        "CVE-2026-43789",
+        "CVE-2026-43787",
+        "CVE-2026-43786",
+        "CVE-2026-43785",
+        "CVE-2026-43763",
+        "CVE-2026-43741",
+        "CVE-2026-43737",
+        "CVE-2026-43719",
+        "CVE-2026-43702",
+        "CVE-2026-43697",
+        "CVE-2026-43695",
+        "CVE-2026-43692",
+        "CVE-2026-43691",
+        "CVE-2026-43690",
+        "CVE-2026-43686",
+        "CVE-2026-43684",
+        "CVE-2026-43683",
+        "CVE-2026-43677",
+        "CVE-2026-43664",
+        "CVE-2026-28969",
+        "CVE-2026-28968",
+        "CVE-2026-28966",
+        "CVE-2026-28935",
+        "CVE-2026-28934",
+        "CVE-2026-28930",
+        "CVE-2026-28899",
+        "CVE-2026-20683",
+        "CVE-2022-3437"
+      ],
+      "has_cves": true,
+      "id": "568f78071387",
+      "name": "macOS Sequoia 15.8",
+      "os_type": "macos",
+      "release_date": "2026-09-14",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/149043",
+      "version": "15.8"
     },
     {
       "cve_context": {
@@ -33190,6 +34365,9 @@
     },
     {
       "cve_context": {
+        "CVE-2025-14819": {
+          "entry_added_date": "2026-09-14"
+        },
         "CVE-2026-20672": {
           "matched_pattern": "severity: information disclosure",
           "severity": "medium",
@@ -33199,11 +34377,28 @@
             "type-confusion"
           ]
         },
+        "CVE-2026-28836": {
+          "entry_added_date": "2026-09-14"
+        },
+        "CVE-2026-28914": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "audio"
+          ]
+        },
         "CVE-2026-28932": {
           "matched_pattern": "severity: memory corruption",
           "severity": "high",
           "tags": [
             "bypass"
+          ]
+        },
+        "CVE-2026-28933": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel"
           ]
         },
         "CVE-2026-28981": {
@@ -33234,8 +34429,7 @@
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
           "tags": [
-            "bypass",
-            "privacy",
+            "out-of-bounds",
             "security"
           ]
         },
@@ -33251,11 +34445,13 @@
             "memory-corruption"
           ]
         },
+        "CVE-2026-43761": {
+          "entry_added_date": "2026-09-14"
+        },
         "CVE-2026-43778": {
           "matched_pattern": "severity: use after free",
           "severity": "high",
           "tags": [
-            "bypass",
             "kernel"
           ]
         },
@@ -33274,12 +34470,25 @@
             "security"
           ]
         },
+        "CVE-2026-43815": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
         "CVE-2026-43822": {
           "matched_pattern": "severity: use after free",
           "severity": "high"
         },
         "CVE-2026-64703": {
           "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-64714": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: memory corruption",
           "severity": "high",
           "tags": [
             "kernel"
@@ -33294,10 +34503,36 @@
         },
         "CVE-2026-64767": {
           "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "buffer-overflow",
+            "kernel",
+            "memory-corruption"
+          ]
+        },
+        "CVE-2026-65404": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "kernel",
+            "security"
+          ]
+        },
+        "CVE-2026-84489": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: buffer overflow",
           "severity": "high"
+        },
+        "CVE-2026-86902": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "filesystem"
+          ]
         }
       },
       "cves": [
+        "CVE-2026-86902",
+        "CVE-2026-84489",
+        "CVE-2026-65404",
         "CVE-2026-64776",
         "CVE-2026-64775",
         "CVE-2026-64774",
@@ -33324,6 +34559,7 @@
         "CVE-2026-64723",
         "CVE-2026-64721",
         "CVE-2026-64716",
+        "CVE-2026-64714",
         "CVE-2026-64711",
         "CVE-2026-64710",
         "CVE-2026-64709",
@@ -33343,6 +34579,7 @@
         "CVE-2026-64692",
         "CVE-2026-43822",
         "CVE-2026-43818",
+        "CVE-2026-43815",
         "CVE-2026-43810",
         "CVE-2026-43809",
         "CVE-2026-43807",
@@ -33371,6 +34608,7 @@
         "CVE-2026-43765",
         "CVE-2026-43764",
         "CVE-2026-43763",
+        "CVE-2026-43761",
         "CVE-2026-43760",
         "CVE-2026-43758",
         "CVE-2026-43757",
@@ -33412,6 +34650,7 @@
         "CVE-2026-28961",
         "CVE-2026-28945",
         "CVE-2026-28936",
+        "CVE-2026-28933",
         "CVE-2026-28932",
         "CVE-2026-28926",
         "CVE-2026-28914",
@@ -33419,12 +34658,15 @@
         "CVE-2026-28900",
         "CVE-2026-28896",
         "CVE-2026-28849",
+        "CVE-2026-28836",
         "CVE-2026-23918",
         "CVE-2026-20672",
         "CVE-2026-4424",
         "CVE-2026-3784",
         "CVE-2026-3783",
-        "CVE-2025-43325"
+        "CVE-2025-43325",
+        "CVE-2025-14819",
+        "CVE-2025-14017"
       ],
       "has_cves": true,
       "id": "df2e00b97a75",
@@ -34659,27 +35901,37 @@
     },
     {
       "cve_context": {
+        "CVE-2026-28899": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "security"
+          ]
+        },
         "CVE-2026-28928": {
           "matched_pattern": "severity: use after free",
           "severity": "high",
           "tags": [
-            "arbitrary-code",
-            "buffer-overflow"
+            "use-after-free"
           ]
         },
         "CVE-2026-28931": {
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
           "tags": [
-            "kernel",
-            "out-of-bounds"
+            "kernel"
           ]
         },
         "CVE-2026-28932": {
+          "entry_added_date": "2026-09-14",
           "matched_pattern": "severity: memory corruption",
+          "severity": "high"
+        },
+        "CVE-2026-28933": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: use-after-free",
           "severity": "high",
           "tags": [
-            "audio"
+            "sandbox"
           ]
         },
         "CVE-2026-28981": {
@@ -34695,17 +35947,19 @@
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
           "tags": [
-            "bypass",
-            "privacy",
+            "out-of-bounds",
             "security"
+          ]
+        },
+        "CVE-2026-43702": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "bypass"
           ]
         },
         "CVE-2026-43711": {
           "matched_pattern": "severity: memory corruption",
-          "severity": "high",
-          "tags": [
-            "out-of-bounds"
-          ]
+          "severity": "high"
         },
         "CVE-2026-43750": {
           "matched_pattern": "severity: buffer overflow",
@@ -34715,11 +35969,20 @@
             "memory-corruption"
           ]
         },
+        "CVE-2026-43761": {
+          "entry_added_date": "2026-09-14"
+        },
+        "CVE-2026-43762": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "security",
+            "siri"
+          ]
+        },
         "CVE-2026-43776": {
           "matched_pattern": "severity: buffer overflow",
           "severity": "high",
           "tags": [
-            "buffer-overflow",
             "kernel"
           ]
         },
@@ -34728,6 +35991,12 @@
           "severity": "high",
           "tags": [
             "kernel"
+          ]
+        },
+        "CVE-2026-43783": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "security"
           ]
         },
         "CVE-2026-43802": {
@@ -34744,6 +36013,14 @@
             "network"
           ]
         },
+        "CVE-2026-43808": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
         "CVE-2026-43812": {
           "matched_pattern": "severity: use after free",
           "severity": "high",
@@ -34751,16 +36028,18 @@
             "kernel"
           ]
         },
+        "CVE-2026-43815": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
         "CVE-2026-43822": {
           "matched_pattern": "severity: use after free",
           "severity": "high"
         },
         "CVE-2026-64691": {
           "matched_pattern": "severity: buffer overflow",
-          "severity": "high",
-          "tags": [
-            "out-of-bounds"
-          ]
+          "severity": "high"
         },
         "CVE-2026-64703": {
           "matched_pattern": "severity: use after free",
@@ -34768,6 +36047,17 @@
           "tags": [
             "kernel"
           ]
+        },
+        "CVE-2026-64705": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "graphics"
+          ]
+        },
+        "CVE-2026-64717": {
+          "entry_added_date": "2026-09-14"
         },
         "CVE-2026-64722": {
           "matched_pattern": "severity: buffer overflow",
@@ -34792,7 +36082,12 @@
         },
         "CVE-2026-64767": {
           "matched_pattern": "severity: buffer overflow",
-          "severity": "high"
+          "severity": "high",
+          "tags": [
+            "buffer-overflow",
+            "kernel",
+            "memory-corruption"
+          ]
         },
         "CVE-2026-64771": {
           "matched_pattern": "severity: buffer overflow",
@@ -34800,9 +36095,47 @@
           "tags": [
             "buffer-overflow"
           ]
+        },
+        "CVE-2026-65353": {
+          "entry_added_date": "2026-09-14"
+        },
+        "CVE-2026-65357": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65371": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65375": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "webkit"
+          ]
+        },
+        "CVE-2026-65407": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "arbitrary-code"
+          ]
+        },
+        "CVE-2026-84562": {
+          "entry_added_date": "2026-09-14"
         }
       },
       "cves": [
+        "CVE-2026-84562",
+        "CVE-2026-65407",
+        "CVE-2026-65375",
+        "CVE-2026-65371",
+        "CVE-2026-65357",
+        "CVE-2026-65353",
         "CVE-2026-64783",
         "CVE-2026-64776",
         "CVE-2026-64775",
@@ -34849,6 +36182,7 @@
         "CVE-2026-64720",
         "CVE-2026-64719",
         "CVE-2026-64718",
+        "CVE-2026-64717",
         "CVE-2026-64716",
         "CVE-2026-64713",
         "CVE-2026-64711",
@@ -34856,9 +36190,11 @@
         "CVE-2026-64709",
         "CVE-2026-64708",
         "CVE-2026-64707",
+        "CVE-2026-64705",
         "CVE-2026-64704",
         "CVE-2026-64703",
         "CVE-2026-64702",
+        "CVE-2026-64701",
         "CVE-2026-64700",
         "CVE-2026-64699",
         "CVE-2026-64698",
@@ -34875,11 +36211,13 @@
         "CVE-2026-43818",
         "CVE-2026-43817",
         "CVE-2026-43816",
+        "CVE-2026-43815",
         "CVE-2026-43814",
         "CVE-2026-43813",
         "CVE-2026-43812",
         "CVE-2026-43810",
         "CVE-2026-43809",
+        "CVE-2026-43808",
         "CVE-2026-43806",
         "CVE-2026-43805",
         "CVE-2026-43804",
@@ -34892,6 +36230,7 @@
         "CVE-2026-43796",
         "CVE-2026-43793",
         "CVE-2026-43792",
+        "CVE-2026-43783",
         "CVE-2026-43782",
         "CVE-2026-43781",
         "CVE-2026-43780",
@@ -34912,6 +36251,8 @@
         "CVE-2026-43765",
         "CVE-2026-43764",
         "CVE-2026-43763",
+        "CVE-2026-43762",
+        "CVE-2026-43761",
         "CVE-2026-43760",
         "CVE-2026-43759",
         "CVE-2026-43758",
@@ -34934,6 +36275,7 @@
         "CVE-2026-43714",
         "CVE-2026-43711",
         "CVE-2026-43710",
+        "CVE-2026-43702",
         "CVE-2026-43694",
         "CVE-2026-43693",
         "CVE-2026-43682",
@@ -34947,11 +36289,13 @@
         "CVE-2026-28981",
         "CVE-2026-28973",
         "CVE-2026-28945",
+        "CVE-2026-28933",
         "CVE-2026-28932",
         "CVE-2026-28931",
         "CVE-2026-28928",
         "CVE-2026-28912",
         "CVE-2026-28911",
+        "CVE-2026-28899",
         "CVE-2026-23918",
         "CVE-2026-4424",
         "CVE-2026-3784",
@@ -34989,6 +36333,12 @@
     },
     {
       "cve_context": {
+        "CVE-2026-64736": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "kernel"
+          ]
+        },
         "CVE-2026-65343": {
           "matched_pattern": "severity: use after free",
           "severity": "high",
@@ -34996,9 +36346,39 @@
             "kernel",
             "out-of-bounds"
           ]
+        },
+        "CVE-2026-65352": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "webkit"
+          ]
+        },
+        "CVE-2026-65355": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium",
+          "tags": [
+            "graphics"
+          ]
+        },
+        "CVE-2026-65390": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "security"
+          ]
+        },
+        "CVE-2026-65391": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "memory-corruption"
+          ]
         }
       },
       "cves": [
+        "CVE-2026-65391",
+        "CVE-2026-65390",
+        "CVE-2026-65355",
+        "CVE-2026-65352",
         "CVE-2026-65351",
         "CVE-2026-65349",
         "CVE-2026-65347",
@@ -35024,9 +36404,11 @@
         "CVE-2026-64780",
         "CVE-2026-64779",
         "CVE-2026-64778",
+        "CVE-2026-64736",
         "CVE-2026-64715",
         "CVE-2026-43795",
-        "CVE-2026-43794"
+        "CVE-2026-43794",
+        "CVE-2026-28935"
       ],
       "has_cves": true,
       "id": "841805ea3dfa",
@@ -35036,6 +36418,277 @@
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/148281",
       "version": "26.6.2"
+    },
+    {
+      "cve_context": {
+        "CVE-2026-28934": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "filesystem",
+            "kernel",
+            "security"
+          ]
+        },
+        "CVE-2026-28969": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-43686": {
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-43719": {
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-65374": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high"
+        },
+        "CVE-2026-65377": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "bypass",
+            "kernel",
+            "security"
+          ]
+        },
+        "CVE-2026-65400": {
+          "exploited": true,
+          "kev": true,
+          "matched_pattern": "CISA KEV catalog",
+          "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+          "tags": [
+            "security"
+          ]
+        },
+        "CVE-2026-65402": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high"
+        },
+        "CVE-2026-65407": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-84497": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "info-disclosure"
+          ]
+        },
+        "CVE-2026-84506": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-84510": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84512": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "buffer-overflow"
+          ]
+        },
+        "CVE-2026-84581": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84626": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium"
+        },
+        "CVE-2026-86924": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "buffer-overflow"
+          ]
+        }
+      },
+      "cves": [
+        "CVE-2026-86924",
+        "CVE-2026-86917",
+        "CVE-2026-86910",
+        "CVE-2026-86891",
+        "CVE-2026-86889",
+        "CVE-2026-86888",
+        "CVE-2026-86882",
+        "CVE-2026-86881",
+        "CVE-2026-86876",
+        "CVE-2026-84632",
+        "CVE-2026-84630",
+        "CVE-2026-84626",
+        "CVE-2026-84624",
+        "CVE-2026-84622",
+        "CVE-2026-84621",
+        "CVE-2026-84620",
+        "CVE-2026-84619",
+        "CVE-2026-84618",
+        "CVE-2026-84617",
+        "CVE-2026-84616",
+        "CVE-2026-84612",
+        "CVE-2026-84611",
+        "CVE-2026-84609",
+        "CVE-2026-84607",
+        "CVE-2026-84602",
+        "CVE-2026-84587",
+        "CVE-2026-84583",
+        "CVE-2026-84581",
+        "CVE-2026-84580",
+        "CVE-2026-84578",
+        "CVE-2026-84577",
+        "CVE-2026-84576",
+        "CVE-2026-84575",
+        "CVE-2026-84574",
+        "CVE-2026-84573",
+        "CVE-2026-84572",
+        "CVE-2026-84570",
+        "CVE-2026-84568",
+        "CVE-2026-84567",
+        "CVE-2026-84566",
+        "CVE-2026-84565",
+        "CVE-2026-84564",
+        "CVE-2026-84563",
+        "CVE-2026-84561",
+        "CVE-2026-84559",
+        "CVE-2026-84556",
+        "CVE-2026-84554",
+        "CVE-2026-84553",
+        "CVE-2026-84552",
+        "CVE-2026-84550",
+        "CVE-2026-84549",
+        "CVE-2026-84548",
+        "CVE-2026-84546",
+        "CVE-2026-84544",
+        "CVE-2026-84543",
+        "CVE-2026-84541",
+        "CVE-2026-84540",
+        "CVE-2026-84538",
+        "CVE-2026-84537",
+        "CVE-2026-84536",
+        "CVE-2026-84535",
+        "CVE-2026-84534",
+        "CVE-2026-84532",
+        "CVE-2026-84530",
+        "CVE-2026-84527",
+        "CVE-2026-84526",
+        "CVE-2026-84525",
+        "CVE-2026-84524",
+        "CVE-2026-84523",
+        "CVE-2026-84521",
+        "CVE-2026-84519",
+        "CVE-2026-84517",
+        "CVE-2026-84516",
+        "CVE-2026-84515",
+        "CVE-2026-84514",
+        "CVE-2026-84513",
+        "CVE-2026-84512",
+        "CVE-2026-84511",
+        "CVE-2026-84510",
+        "CVE-2026-84509",
+        "CVE-2026-84507",
+        "CVE-2026-84506",
+        "CVE-2026-84505",
+        "CVE-2026-84497",
+        "CVE-2026-84492",
+        "CVE-2026-84487",
+        "CVE-2026-65414",
+        "CVE-2026-65413",
+        "CVE-2026-65412",
+        "CVE-2026-65410",
+        "CVE-2026-65409",
+        "CVE-2026-65408",
+        "CVE-2026-65407",
+        "CVE-2026-65406",
+        "CVE-2026-65405",
+        "CVE-2026-65403",
+        "CVE-2026-65402",
+        "CVE-2026-65401",
+        "CVE-2026-65400",
+        "CVE-2026-65399",
+        "CVE-2026-65395",
+        "CVE-2026-65382",
+        "CVE-2026-65381",
+        "CVE-2026-65378",
+        "CVE-2026-65377",
+        "CVE-2026-65376",
+        "CVE-2026-65374",
+        "CVE-2026-65369",
+        "CVE-2026-65365",
+        "CVE-2026-65364",
+        "CVE-2026-65362",
+        "CVE-2026-65361",
+        "CVE-2026-65360",
+        "CVE-2026-65359",
+        "CVE-2026-65358",
+        "CVE-2026-65348",
+        "CVE-2026-65345",
+        "CVE-2026-65344",
+        "CVE-2026-65342",
+        "CVE-2026-64790",
+        "CVE-2026-64756",
+        "CVE-2026-64712",
+        "CVE-2026-43791",
+        "CVE-2026-43790",
+        "CVE-2026-43789",
+        "CVE-2026-43787",
+        "CVE-2026-43786",
+        "CVE-2026-43785",
+        "CVE-2026-43763",
+        "CVE-2026-43760",
+        "CVE-2026-43743",
+        "CVE-2026-43741",
+        "CVE-2026-43737",
+        "CVE-2026-43719",
+        "CVE-2026-43702",
+        "CVE-2026-43698",
+        "CVE-2026-43697",
+        "CVE-2026-43695",
+        "CVE-2026-43692",
+        "CVE-2026-43691",
+        "CVE-2026-43690",
+        "CVE-2026-43687",
+        "CVE-2026-43686",
+        "CVE-2026-43683",
+        "CVE-2026-43677",
+        "CVE-2026-43664",
+        "CVE-2026-28969",
+        "CVE-2026-28968",
+        "CVE-2026-28966",
+        "CVE-2026-28934",
+        "CVE-2026-28899",
+        "CVE-2026-20683",
+        "CVE-2022-3437"
+      ],
+      "has_cves": true,
+      "id": "05ad03fb7380",
+      "name": "macOS Tahoe 26.7",
+      "os_type": "macos",
+      "release_date": "2026-09-14",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/149042",
+      "version": "26.7"
     },
     {
       "cve_context": {
@@ -43377,8 +45030,7 @@
           "matched_pattern": "severity: use after free",
           "severity": "high",
           "tags": [
-            "audio",
-            "out-of-bounds"
+            "use-after-free"
           ]
         },
         "CVE-2026-28931": {
@@ -43388,6 +45040,9 @@
             "kernel",
             "out-of-bounds"
           ]
+        },
+        "CVE-2026-43702": {
+          "entry_added_date": "2026-09-14"
         },
         "CVE-2026-43711": {
           "matched_pattern": "severity: memory corruption",
@@ -43407,6 +45062,14 @@
             "security"
           ]
         },
+        "CVE-2026-43808": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
         "CVE-2026-43812": {
           "matched_pattern": "severity: use after free",
           "severity": "high",
@@ -43417,6 +45080,12 @@
         "CVE-2026-43822": {
           "matched_pattern": "severity: use after free",
           "severity": "high"
+        },
+        "CVE-2026-64717": {
+          "entry_added_date": "2026-09-14"
+        },
+        "CVE-2026-64726": {
+          "entry_added_date": "2026-09-14"
         },
         "CVE-2026-64747": {
           "matched_pattern": "severity: buffer overflow",
@@ -43438,9 +45107,32 @@
           "tags": [
             "integer-overflow"
           ]
+        },
+        "CVE-2026-65357": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65371": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65407": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "audio"
+          ]
         }
       },
       "cves": [
+        "CVE-2026-65407",
+        "CVE-2026-65371",
+        "CVE-2026-65357",
         "CVE-2026-64775",
         "CVE-2026-64774",
         "CVE-2026-64772",
@@ -43474,6 +45166,7 @@
         "CVE-2026-64720",
         "CVE-2026-64719",
         "CVE-2026-64718",
+        "CVE-2026-64717",
         "CVE-2026-64716",
         "CVE-2026-64713",
         "CVE-2026-64709",
@@ -43488,6 +45181,7 @@
         "CVE-2026-43813",
         "CVE-2026-43812",
         "CVE-2026-43810",
+        "CVE-2026-43808",
         "CVE-2026-43807",
         "CVE-2026-43803",
         "CVE-2026-43801",
@@ -43529,6 +45223,7 @@
         "CVE-2026-43705",
         "CVE-2026-43704",
         "CVE-2026-43703",
+        "CVE-2026-43702",
         "CVE-2026-43701",
         "CVE-2026-43700",
         "CVE-2026-43699",
@@ -43550,6 +45245,173 @@
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/128069",
       "version": "26.6"
+    },
+    {
+      "cve_context": {
+        "CVE-2026-28969": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-43686": {
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65343": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-65377": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "security"
+          ]
+        },
+        "CVE-2026-65402": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65407": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "audio"
+          ]
+        },
+        "CVE-2026-84497": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84571": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-84626": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium"
+        },
+        "CVE-2026-86895": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium"
+        }
+      },
+      "cves": [
+        "CVE-2026-86903",
+        "CVE-2026-86895",
+        "CVE-2026-86893",
+        "CVE-2026-86888",
+        "CVE-2026-86884",
+        "CVE-2026-86882",
+        "CVE-2026-86881",
+        "CVE-2026-84636",
+        "CVE-2026-84635",
+        "CVE-2026-84632",
+        "CVE-2026-84630",
+        "CVE-2026-84629",
+        "CVE-2026-84628",
+        "CVE-2026-84626",
+        "CVE-2026-84622",
+        "CVE-2026-84620",
+        "CVE-2026-84617",
+        "CVE-2026-84616",
+        "CVE-2026-84615",
+        "CVE-2026-84612",
+        "CVE-2026-84611",
+        "CVE-2026-84609",
+        "CVE-2026-84607",
+        "CVE-2026-84602",
+        "CVE-2026-84600",
+        "CVE-2026-84597",
+        "CVE-2026-84596",
+        "CVE-2026-84583",
+        "CVE-2026-84575",
+        "CVE-2026-84571",
+        "CVE-2026-84564",
+        "CVE-2026-84561",
+        "CVE-2026-84560",
+        "CVE-2026-84546",
+        "CVE-2026-84533",
+        "CVE-2026-84532",
+        "CVE-2026-84530",
+        "CVE-2026-84527",
+        "CVE-2026-84526",
+        "CVE-2026-84524",
+        "CVE-2026-84523",
+        "CVE-2026-84513",
+        "CVE-2026-84511",
+        "CVE-2026-84507",
+        "CVE-2026-84497",
+        "CVE-2026-84492",
+        "CVE-2026-84491",
+        "CVE-2026-84487",
+        "CVE-2026-65415",
+        "CVE-2026-65414",
+        "CVE-2026-65410",
+        "CVE-2026-65409",
+        "CVE-2026-65407",
+        "CVE-2026-65406",
+        "CVE-2026-65405",
+        "CVE-2026-65402",
+        "CVE-2026-65398",
+        "CVE-2026-65395",
+        "CVE-2026-65391",
+        "CVE-2026-65390",
+        "CVE-2026-65377",
+        "CVE-2026-65360",
+        "CVE-2026-65359",
+        "CVE-2026-65358",
+        "CVE-2026-65349",
+        "CVE-2026-65347",
+        "CVE-2026-65346",
+        "CVE-2026-65344",
+        "CVE-2026-65343",
+        "CVE-2026-65341",
+        "CVE-2026-65339",
+        "CVE-2026-65330",
+        "CVE-2026-64787",
+        "CVE-2026-64778",
+        "CVE-2026-64760",
+        "CVE-2026-64753",
+        "CVE-2026-64736",
+        "CVE-2026-64715",
+        "CVE-2026-43794",
+        "CVE-2026-43785",
+        "CVE-2026-43737",
+        "CVE-2026-43695",
+        "CVE-2026-43687",
+        "CVE-2026-43686",
+        "CVE-2026-43664",
+        "CVE-2026-28969",
+        "CVE-2026-28968",
+        "CVE-2026-28966",
+        "CVE-2026-28935"
+      ],
+      "has_cves": true,
+      "id": "20a566214bcd",
+      "name": "tvOS 27",
+      "os_type": "tvos",
+      "release_date": "2026-09-14",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/149036",
+      "version": null
     },
     {
       "cve_context": {
@@ -45141,6 +47003,12 @@
           "matched_pattern": "severity: memory corruption",
           "severity": "high"
         },
+        "CVE-2026-43762": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "security"
+          ]
+        },
         "CVE-2026-43778": {
           "matched_pattern": "severity: use after free",
           "severity": "high",
@@ -45166,6 +47034,12 @@
           "matched_pattern": "severity: use after free",
           "severity": "high"
         },
+        "CVE-2026-64717": {
+          "entry_added_date": "2026-09-14"
+        },
+        "CVE-2026-64726": {
+          "entry_added_date": "2026-09-14"
+        },
         "CVE-2026-64747": {
           "matched_pattern": "severity: buffer overflow",
           "severity": "high"
@@ -45183,9 +47057,32 @@
           "tags": [
             "integer-overflow"
           ]
+        },
+        "CVE-2026-65357": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65371": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65407": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "audio"
+          ]
         }
       },
       "cves": [
+        "CVE-2026-65407",
+        "CVE-2026-65371",
+        "CVE-2026-65357",
         "CVE-2026-64783",
         "CVE-2026-64775",
         "CVE-2026-64774",
@@ -45221,6 +47118,7 @@
         "CVE-2026-64721",
         "CVE-2026-64719",
         "CVE-2026-64718",
+        "CVE-2026-64717",
         "CVE-2026-64716",
         "CVE-2026-64713",
         "CVE-2026-64709",
@@ -45244,6 +47142,7 @@
         "CVE-2026-43780",
         "CVE-2026-43778",
         "CVE-2026-43769",
+        "CVE-2026-43762",
         "CVE-2026-43745",
         "CVE-2026-43744",
         "CVE-2026-43742",
@@ -45296,15 +47195,242 @@
       "version": "26.6"
     },
     {
-      "cves": [],
+      "cve_context": {
+        "CVE-2026-65355": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium",
+          "tags": [
+            "info-disclosure",
+            "webkit"
+          ]
+        }
+      },
+      "cves": [
+        "CVE-2026-65355",
+        "CVE-2026-65352"
+      ],
       "has_cves": true,
       "id": "fef5bf091ead",
       "name": "visionOS 26.6.1",
       "os_type": "visionos",
       "release_date": "2026-08-17",
       "source_url": "https://support.apple.com/en-us/100100",
-      "url": null,
+      "url": "https://support.apple.com/en-us/148353",
       "version": "26.6.1"
+    },
+    {
+      "cve_context": {
+        "CVE-2026-28969": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-43686": {
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-64752": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "out-of-bounds",
+            "sandbox"
+          ]
+        },
+        "CVE-2026-65343": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-65377": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "security"
+          ]
+        },
+        "CVE-2026-65407": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "audio"
+          ]
+        },
+        "CVE-2026-84497": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high"
+        },
+        "CVE-2026-84521": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high"
+        },
+        "CVE-2026-84571": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-84626": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium"
+        },
+        "CVE-2026-86870": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "privacy"
+          ]
+        },
+        "CVE-2026-86895": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium"
+        }
+      },
+      "cves": [
+        "CVE-2026-86905",
+        "CVE-2026-86903",
+        "CVE-2026-86898",
+        "CVE-2026-86897",
+        "CVE-2026-86895",
+        "CVE-2026-86893",
+        "CVE-2026-86892",
+        "CVE-2026-86888",
+        "CVE-2026-86887",
+        "CVE-2026-86883",
+        "CVE-2026-86882",
+        "CVE-2026-86881",
+        "CVE-2026-86876",
+        "CVE-2026-86870",
+        "CVE-2026-84636",
+        "CVE-2026-84635",
+        "CVE-2026-84632",
+        "CVE-2026-84630",
+        "CVE-2026-84629",
+        "CVE-2026-84628",
+        "CVE-2026-84626",
+        "CVE-2026-84625",
+        "CVE-2026-84624",
+        "CVE-2026-84622",
+        "CVE-2026-84620",
+        "CVE-2026-84616",
+        "CVE-2026-84615",
+        "CVE-2026-84612",
+        "CVE-2026-84611",
+        "CVE-2026-84609",
+        "CVE-2026-84607",
+        "CVE-2026-84606",
+        "CVE-2026-84603",
+        "CVE-2026-84602",
+        "CVE-2026-84600",
+        "CVE-2026-84597",
+        "CVE-2026-84596",
+        "CVE-2026-84583",
+        "CVE-2026-84575",
+        "CVE-2026-84571",
+        "CVE-2026-84564",
+        "CVE-2026-84561",
+        "CVE-2026-84560",
+        "CVE-2026-84551",
+        "CVE-2026-84546",
+        "CVE-2026-84534",
+        "CVE-2026-84532",
+        "CVE-2026-84530",
+        "CVE-2026-84527",
+        "CVE-2026-84526",
+        "CVE-2026-84524",
+        "CVE-2026-84523",
+        "CVE-2026-84521",
+        "CVE-2026-84513",
+        "CVE-2026-84511",
+        "CVE-2026-84507",
+        "CVE-2026-84497",
+        "CVE-2026-84492",
+        "CVE-2026-84491",
+        "CVE-2026-84487",
+        "CVE-2026-65415",
+        "CVE-2026-65414",
+        "CVE-2026-65412",
+        "CVE-2026-65411",
+        "CVE-2026-65410",
+        "CVE-2026-65409",
+        "CVE-2026-65407",
+        "CVE-2026-65406",
+        "CVE-2026-65405",
+        "CVE-2026-65403",
+        "CVE-2026-65402",
+        "CVE-2026-65399",
+        "CVE-2026-65398",
+        "CVE-2026-65395",
+        "CVE-2026-65391",
+        "CVE-2026-65390",
+        "CVE-2026-65377",
+        "CVE-2026-65360",
+        "CVE-2026-65359",
+        "CVE-2026-65358",
+        "CVE-2026-65351",
+        "CVE-2026-65349",
+        "CVE-2026-65347",
+        "CVE-2026-65346",
+        "CVE-2026-65344",
+        "CVE-2026-65343",
+        "CVE-2026-65341",
+        "CVE-2026-65340",
+        "CVE-2026-65339",
+        "CVE-2026-65338",
+        "CVE-2026-65337",
+        "CVE-2026-65336",
+        "CVE-2026-65335",
+        "CVE-2026-65334",
+        "CVE-2026-65333",
+        "CVE-2026-65332",
+        "CVE-2026-65331",
+        "CVE-2026-65330",
+        "CVE-2026-64788",
+        "CVE-2026-64787",
+        "CVE-2026-64784",
+        "CVE-2026-64782",
+        "CVE-2026-64781",
+        "CVE-2026-64780",
+        "CVE-2026-64779",
+        "CVE-2026-64778",
+        "CVE-2026-64760",
+        "CVE-2026-64753",
+        "CVE-2026-64752",
+        "CVE-2026-64736",
+        "CVE-2026-64718",
+        "CVE-2026-64715",
+        "CVE-2026-43795",
+        "CVE-2026-43794",
+        "CVE-2026-43785",
+        "CVE-2026-43695",
+        "CVE-2026-43689",
+        "CVE-2026-43687",
+        "CVE-2026-43686",
+        "CVE-2026-28969",
+        "CVE-2026-28968",
+        "CVE-2026-28966",
+        "CVE-2026-28935",
+        "CVE-2026-20683"
+      ],
+      "has_cves": true,
+      "id": "ff5d90ceb497",
+      "name": "visionOS 27",
+      "os_type": "visionos",
+      "release_date": "2026-09-14",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/149038",
+      "version": null
     },
     {
       "cve_context": {
@@ -47240,8 +49366,7 @@
           "matched_pattern": "severity: use after free",
           "severity": "high",
           "tags": [
-            "audio",
-            "out-of-bounds"
+            "use-after-free"
           ]
         },
         "CVE-2026-28931": {
@@ -47251,6 +49376,9 @@
             "kernel",
             "out-of-bounds"
           ]
+        },
+        "CVE-2026-43702": {
+          "entry_added_date": "2026-09-14"
         },
         "CVE-2026-43711": {
           "matched_pattern": "severity: memory corruption",
@@ -47271,9 +49399,26 @@
             "security"
           ]
         },
+        "CVE-2026-43808": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
         "CVE-2026-43822": {
           "matched_pattern": "severity: use after free",
           "severity": "high"
+        },
+        "CVE-2026-64717": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "sandbox"
+          ]
+        },
+        "CVE-2026-64726": {
+          "entry_added_date": "2026-09-14"
         },
         "CVE-2026-64747": {
           "matched_pattern": "severity: buffer overflow",
@@ -47288,9 +49433,32 @@
           "tags": [
             "kernel"
           ]
+        },
+        "CVE-2026-65357": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65371": {
+          "entry_added_date": "2026-09-14",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65407": {
+          "entry_added_date": "2026-09-14",
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "audio"
+          ]
         }
       },
       "cves": [
+        "CVE-2026-65407",
+        "CVE-2026-65371",
+        "CVE-2026-65357",
         "CVE-2026-64783",
         "CVE-2026-64775",
         "CVE-2026-64766",
@@ -47320,6 +49488,7 @@
         "CVE-2026-64720",
         "CVE-2026-64719",
         "CVE-2026-64718",
+        "CVE-2026-64717",
         "CVE-2026-64716",
         "CVE-2026-64713",
         "CVE-2026-64709",
@@ -47333,6 +49502,7 @@
         "CVE-2026-43814",
         "CVE-2026-43813",
         "CVE-2026-43810",
+        "CVE-2026-43808",
         "CVE-2026-43807",
         "CVE-2026-43805",
         "CVE-2026-43803",
@@ -47377,6 +49547,7 @@
         "CVE-2026-43705",
         "CVE-2026-43704",
         "CVE-2026-43703",
+        "CVE-2026-43702",
         "CVE-2026-43701",
         "CVE-2026-43700",
         "CVE-2026-43699",
@@ -47400,6 +49571,188 @@
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/128068",
       "version": "26.6"
+    },
+    {
+      "cve_context": {
+        "CVE-2026-28969": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-43686": {
+          "matched_pattern": "severity: use-after-free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65343": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-65377": {
+          "matched_pattern": "severity: memory corruption",
+          "severity": "high",
+          "tags": [
+            "kernel",
+            "security"
+          ]
+        },
+        "CVE-2026-65402": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "kernel"
+          ]
+        },
+        "CVE-2026-65407": {
+          "matched_pattern": "severity: use after free",
+          "severity": "high",
+          "tags": [
+            "audio"
+          ]
+        },
+        "CVE-2026-84571": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "out-of-bounds"
+          ]
+        },
+        "CVE-2026-84586": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium",
+          "tags": [
+            "use-after-free"
+          ]
+        },
+        "CVE-2026-84626": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium"
+        },
+        "CVE-2026-86870": {
+          "matched_pattern": "severity: buffer overflow",
+          "severity": "high",
+          "tags": [
+            "sandbox",
+            "security"
+          ]
+        },
+        "CVE-2026-86895": {
+          "matched_pattern": "severity: information disclosure",
+          "severity": "medium"
+        }
+      },
+      "cves": [
+        "CVE-2026-86904",
+        "CVE-2026-86903",
+        "CVE-2026-86895",
+        "CVE-2026-86893",
+        "CVE-2026-86891",
+        "CVE-2026-86888",
+        "CVE-2026-86886",
+        "CVE-2026-86884",
+        "CVE-2026-86882",
+        "CVE-2026-86881",
+        "CVE-2026-86876",
+        "CVE-2026-86870",
+        "CVE-2026-84636",
+        "CVE-2026-84635",
+        "CVE-2026-84632",
+        "CVE-2026-84630",
+        "CVE-2026-84629",
+        "CVE-2026-84628",
+        "CVE-2026-84626",
+        "CVE-2026-84625",
+        "CVE-2026-84622",
+        "CVE-2026-84620",
+        "CVE-2026-84616",
+        "CVE-2026-84612",
+        "CVE-2026-84611",
+        "CVE-2026-84609",
+        "CVE-2026-84607",
+        "CVE-2026-84603",
+        "CVE-2026-84602",
+        "CVE-2026-84600",
+        "CVE-2026-84597",
+        "CVE-2026-84596",
+        "CVE-2026-84586",
+        "CVE-2026-84583",
+        "CVE-2026-84575",
+        "CVE-2026-84571",
+        "CVE-2026-84564",
+        "CVE-2026-84561",
+        "CVE-2026-84560",
+        "CVE-2026-84551",
+        "CVE-2026-84546",
+        "CVE-2026-84533",
+        "CVE-2026-84530",
+        "CVE-2026-84527",
+        "CVE-2026-84526",
+        "CVE-2026-84524",
+        "CVE-2026-84523",
+        "CVE-2026-84513",
+        "CVE-2026-84511",
+        "CVE-2026-84507",
+        "CVE-2026-84492",
+        "CVE-2026-84491",
+        "CVE-2026-84487",
+        "CVE-2026-65415",
+        "CVE-2026-65414",
+        "CVE-2026-65412",
+        "CVE-2026-65410",
+        "CVE-2026-65409",
+        "CVE-2026-65407",
+        "CVE-2026-65405",
+        "CVE-2026-65403",
+        "CVE-2026-65402",
+        "CVE-2026-65399",
+        "CVE-2026-65398",
+        "CVE-2026-65391",
+        "CVE-2026-65390",
+        "CVE-2026-65377",
+        "CVE-2026-65360",
+        "CVE-2026-65359",
+        "CVE-2026-65358",
+        "CVE-2026-65349",
+        "CVE-2026-65347",
+        "CVE-2026-65346",
+        "CVE-2026-65343",
+        "CVE-2026-65341",
+        "CVE-2026-65339",
+        "CVE-2026-65330",
+        "CVE-2026-64788",
+        "CVE-2026-64787",
+        "CVE-2026-64778",
+        "CVE-2026-64760",
+        "CVE-2026-64753",
+        "CVE-2026-64736",
+        "CVE-2026-64715",
+        "CVE-2026-43794",
+        "CVE-2026-43737",
+        "CVE-2026-43695",
+        "CVE-2026-43687",
+        "CVE-2026-43686",
+        "CVE-2026-43664",
+        "CVE-2026-28969",
+        "CVE-2026-28968",
+        "CVE-2026-28935"
+      ],
+      "has_cves": true,
+      "id": "aa7119755265",
+      "name": "watchOS 27",
+      "os_type": "watchos",
+      "release_date": "2026-09-14",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/149037",
+      "version": null
     },
     {
       "cves": [],
