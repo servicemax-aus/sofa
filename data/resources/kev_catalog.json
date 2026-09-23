@@ -1,8 +1,8 @@
 {
-  "catalogVersion": "2026.09.22",
+  "catalogVersion": "2026.09.23",
   "count": 1721,
-  "dateReleased": "2026-09-22T19:02:09.9788Z",
-  "fetchTimestamp": "2026-09-23T11:28:46.004830102Z",
+  "dateReleased": "2026-09-23T12:51:35.821Z",
+  "fetchTimestamp": "2026-09-23T21:27:30.368172250Z",
   "title": "CISA Catalog of Known Exploited Vulnerabilities",
   "vulnerabilities": [
     {
@@ -914,7 +914,7 @@
       ],
       "dateAdded": "2026-08-05",
       "dueDate": "2026-08-08",
-      "knownRansomwareCampaignUse": "Unknown",
+      "knownRansomwareCampaignUse": "Known",
       "notes": "https://blog.jetbrains.com/teamcity/2026/07/cve-2026-63077/; https://www.jetbrains.com/privacy-security/issues-fixed/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-63077",
       "product": "TeamCity",
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
