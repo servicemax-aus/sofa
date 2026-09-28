@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "cached": 121,
+    "cached": 125,
     "errors": [],
-    "fetch_timestamp": "2026-09-28T13:47:06.072658020Z",
-    "fetched": 602,
-    "total_releases": 723
+    "fetch_timestamp": "2026-09-28T23:13:43.114737811Z",
+    "fetched": 605,
+    "total_releases": 730
   },
   "releases": [
     {
@@ -19063,6 +19063,27 @@
     },
     {
       "cve_context": {
+        "CVE-2026-86950": {
+          "exploited": false,
+          "tags": [
+            "security"
+          ]
+        }
+      },
+      "cves": [
+        "CVE-2026-86950"
+      ],
+      "has_cves": true,
+      "id": "de553bdea2f1",
+      "name": "iOS 26.7.1 and iPadOS 26.7.1",
+      "os_type": "ios",
+      "release_date": "2026-09-28",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/149226",
+      "version": "26.7.1"
+    },
+    {
+      "cve_context": {
         "CVE-2026-28969": {
           "matched_pattern": "severity: use after free",
           "severity": "high",
@@ -19286,6 +19307,19 @@
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/149034",
       "version": null
+    },
+    {
+      "cves": [],
+      "has_cves": false,
+      "id": "f90a9e95d517",
+      "name": "iOS 27.0.1 and iPadOS 27.0.1",
+      "note": "This update has no published CVE entries.",
+      "os_type": "ios",
+      "raw_html": "<!DOCTYPE html>\n<html>\n<head><title>iOS 27.0.1 and iPadOS 27.0.1</title></head>\n<body>\n<h1>iOS 27.0.1 and iPadOS 27.0.1</h1>\n<p>Release Date: 2026-09-28</p>\n<p>OS Type: ios</p>\n<p>Version: 27.0.1</p>\n<div class=\"note\">This update has no published CVE entries.</div>\n</body>\n</html>",
+      "release_date": "2026-09-28",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": null,
+      "version": "27.0.1"
     },
     {
       "cve_context": {
@@ -25500,6 +25534,19 @@
     },
     {
       "cves": [],
+      "has_cves": false,
+      "id": "f8cbce2ab724",
+      "name": "macOS Golden Gate 27.0.1",
+      "note": "This update has no published CVE entries.",
+      "os_type": "macos",
+      "raw_html": "<!DOCTYPE html>\n<html>\n<head><title>macOS Golden Gate 27.0.1</title></head>\n<body>\n<h1>macOS Golden Gate 27.0.1</h1>\n<p>Release Date: 2026-09-28</p>\n<p>OS Type: macos</p>\n<p>Version: 27.0.1</p>\n<div class=\"note\">This update has no published CVE entries.</div>\n</body>\n</html>",
+      "release_date": "2026-09-28",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": null,
+      "version": "27.0.1"
+    },
+    {
+      "cves": [],
       "has_cves": true,
       "id": "e1bd69a8f6b1",
       "name": "macOS Monterey 12.0",
@@ -31452,6 +31499,27 @@
     },
     {
       "cve_context": {
+        "CVE-2026-86950": {
+          "exploited": false,
+          "tags": [
+            "security"
+          ]
+        }
+      },
+      "cves": [
+        "CVE-2026-86950"
+      ],
+      "has_cves": true,
+      "id": "95e6e6e5c917",
+      "name": "macOS Sequoia 15.8.1",
+      "os_type": "macos",
+      "release_date": "2026-09-28",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/149229",
+      "version": "15.8.1"
+    },
+    {
+      "cve_context": {
         "CVE-2020-9995": {
           "exploited": false
         }
@@ -36689,6 +36757,27 @@
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/149042",
       "version": "26.7"
+    },
+    {
+      "cve_context": {
+        "CVE-2026-86950": {
+          "exploited": false,
+          "tags": [
+            "security"
+          ]
+        }
+      },
+      "cves": [
+        "CVE-2026-86950"
+      ],
+      "has_cves": true,
+      "id": "8c43fc1db5fb",
+      "name": "macOS Tahoe 26.7.1",
+      "os_type": "macos",
+      "release_date": "2026-09-28",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": "https://support.apple.com/en-us/149228",
+      "version": "26.7.1"
     },
     {
       "cve_context": {
@@ -47433,6 +47522,19 @@
       "version": null
     },
     {
+      "cves": [],
+      "has_cves": false,
+      "id": "a4f9dc24b108",
+      "name": "visionOS 27.0.1",
+      "note": "This update has no published CVE entries.",
+      "os_type": "visionos",
+      "raw_html": "<!DOCTYPE html>\n<html>\n<head><title>visionOS 27.0.1</title></head>\n<body>\n<h1>visionOS 27.0.1</h1>\n<p>Release Date: 2026-09-28</p>\n<p>OS Type: visionos</p>\n<p>Version: 27.0.1</p>\n<div class=\"note\">This update has no published CVE entries.</div>\n</body>\n</html>",
+      "release_date": "2026-09-28",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": null,
+      "version": "27.0.1"
+    },
+    {
       "cve_context": {
         "CVE-2023-40396": {
           "entry_added_date": "2024-07-16",
@@ -49753,6 +49855,19 @@
       "source_url": "https://support.apple.com/en-us/100100",
       "url": "https://support.apple.com/en-us/149037",
       "version": null
+    },
+    {
+      "cves": [],
+      "has_cves": false,
+      "id": "7c2361eb3e50",
+      "name": "watchOS 27.0.1",
+      "note": "This update has no published CVE entries.",
+      "os_type": "watchos",
+      "raw_html": "<!DOCTYPE html>\n<html>\n<head><title>watchOS 27.0.1</title></head>\n<body>\n<h1>watchOS 27.0.1</h1>\n<p>Release Date: 2026-09-28</p>\n<p>OS Type: watchos</p>\n<p>Version: 27.0.1</p>\n<div class=\"note\">This update has no published CVE entries.</div>\n</body>\n</html>",
+      "release_date": "2026-09-28",
+      "source_url": "https://support.apple.com/en-us/100100",
+      "url": null,
+      "version": "27.0.1"
     },
     {
       "cves": [],
